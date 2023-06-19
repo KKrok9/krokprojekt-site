@@ -4,34 +4,36 @@
 }
 
 html {
-  font-size: 62.5%;
   box-sizing: border-box;
 }
 
-body{
-    width: 100vw;
-    height: 500vh;
-    overflow-x: hidden;
-}
-.app{
-    width: 100%;
-    height: 100%;
-}
-
-.section--1{
+body {
   width: 100vw;
-    height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.app {
+  width: 100%;
+  height: 100%;
 }
 
-.navbar{
+.navbar {
   width: 100%;
   height: 10%;
-  position: absolute;
   z-index: 1;
-  
+  position: fixed;
+  top: 0;
 }
-.background{
-height: 100%;
-z-index: -1;
-position: relative;
+
+.logo-photo {
+  border: solid 1px;
+  width: 50%;
+  height: 50%;
+}
+
+.images-list {
+  width: 100%;
+  height: 90%;
+  margin-top: 6%;
+  overflow-y: scroll; /* Dodaj overflow-y: scroll, aby dodać pasek przewijania, jeśli lista obrazów jest zbyt długa */
 }

@@ -1,0 +1,23 @@
+.gallery-container {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+  -webkit-column-width: 25%;
+  -moz-column-width: 25%;
+  column-width: 25%;
+  padding: 0 12px;
+}
+
+.gallery-pic {
+  -webkit-transition: all 250ms ease;
+  transition: all 250ms ease;
+  cursor: pointer;
+  margin-bottom: 10px;
+  height: auto; 
+  filter: grayscale(100%); 
+}
+
+.gallery-pic:hover {
+  transform: scale(1.01);
+  filter: none; /* Przywrócenie normalnej kolorystyki zdjęcia */
+}
