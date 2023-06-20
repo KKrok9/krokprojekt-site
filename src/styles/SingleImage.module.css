@@ -1,4 +1,30 @@
-.single-image{
-    max-width: 100%;
-    max-height: 100%;
+.single-image-container {
+  position: relative;
+}
+
+.single-image {
+  display: block;
+  width: 100%;
+  height: 35vh;
+  transition: all 250ms ease;
+  cursor: pointer;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  font-size: 28px;
+  opacity: 0;
+}
+
+.single-image-container:hover .image-overlay {
+  opacity: 1;
 }

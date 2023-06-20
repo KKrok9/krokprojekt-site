@@ -1,28 +1,3 @@
-import SingleImage from "./SingleImage";
-import styles from "../../styles/Gallery.module.css";
-import { Link } from "react-router-dom";
-
-const Gallery = () => {
-  return (
-    <div className={styles["gallery-container"]}>
-      {itemData.map((item, index) => {
-        return (
-          <div className={styles["gallery-pic"]}>
-            <Link to={`/project/${item.title}`}>
-              <SingleImage
-                img={item.img}
-                key={index}
-                alt="item"
-                title={item.title}
-              ></SingleImage>
-            </Link>
-          </div>
-        );
-      })}
-    </div>
-  );
-};
-
 const itemData = [
   {
     img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
@@ -83,4 +58,4 @@ const itemData = [
     cols: 2,
   },
 ];
-export default Gallery;
+export default itemData;

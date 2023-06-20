@@ -1,16 +1,16 @@
 import styles from "./styles/App.module.css";
-import Navbar from "./components/navbar/Navbar";
-import Gallery from "./components/gallery/Gallery";
-
+import Home from "./pages/Home";
+import Details from "./pages/Details";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div className={styles["app"]}>
-      <div className={styles["navbar"]}>
-        <Navbar></Navbar>
-      </div>
-      <div className={styles["images-list"]}>
-        <Gallery></Gallery>
-      </div>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/project/:id" element={<Details></Details>}/>
+        </Routes>
+      </Router>
     </div>
   );
 }
