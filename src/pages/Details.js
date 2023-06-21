@@ -1,11 +1,11 @@
 import Navbar from "../components/navbar/Navbar";
 import styles from "../styles/Details.module.css";
 import { useParams } from "react-router-dom";
-import itemData from "../utils/data";
+import projectsData from "../data";
 
 const Details = () => {
   const { id } = useParams();
-  const selectedItem = itemData.find((item) => item.title === id);
+  const selectedItem = projectsData.find((item) => item.title === id);
 
   if (!selectedItem) {
     return <div>Nie znaleziono danych dla tego kwiatka</div>;
