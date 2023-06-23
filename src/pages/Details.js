@@ -2,6 +2,7 @@ import Navbar from "../components/navbar/Navbar";
 import styles from "../styles/Details.module.css";
 import { useParams } from "react-router-dom";
 import projectsData from "../data";
+import ProjectDetailsGallery from "../components/projectDetailsGallery/ProjectDetailsGallery";
 
 const Details = () => {
   const { id } = useParams();
@@ -10,15 +11,18 @@ const Details = () => {
   if (!selectedItem) {
     return <div>Nie znaleziono danych dla tego kwiatka</div>;
   }
-
   return (
-    <div>
+    <div className={styles["container"]}>
       <div className={styles["navbar"]}>
         <Navbar />
       </div>
       <div className={styles["details-container"]}>
-        <h1>{selectedItem.title}</h1>
-        <p>{selectedItem.description}</p>
+        <div className={styles["description-container"]}>
+          <h1>{selectedItem.title}</h1>
+        </div>
+        <div className={styles["photos-container"]}>
+          <ProjectDetailsGallery src={selectedItem}></ProjectDetailsGallery>
+        </div>
       </div>
     </div>
   );

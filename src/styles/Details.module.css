@@ -1,3 +1,9 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  overflow-y:scroll;
+}
+
 .navbar {
   width: 100%;
   height: 10%;
@@ -9,5 +15,23 @@
 .details-container {
   width: 100%;
   height: 90%;
-  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+  flex-direction: column;
+}
+
+.description-container {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photos-container {
+  height: 60%;
+  width: 100%;
+  
 }

@@ -12,13 +12,35 @@
   -webkit-transition: all 250ms ease;
   transition: all 250ms ease;
   cursor: pointer;
+  width: 100%;
+  height: 100%;
   margin-bottom: 10px;
-  height: auto;
   filter: grayscale(100%);
 }
 
 .gallery-pic:hover {
   transform: scale(1.01);
   filter: none;
-  
+}
+@media (max-width: 1200px) {
+  .gallery-container {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+  .gallery-pic {
+    -webkit-transition: all 250ms ease;
+    transition: all 250ms ease;
+    cursor: pointer;
+    margin-bottom: 10px;
+    filter: grayscale(100%);
+  }
+}
+
+@media (max-width: 619px) {
+  .gallery-container {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
 }
