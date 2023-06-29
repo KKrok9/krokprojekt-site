@@ -25,9 +25,13 @@
   height: 10%;
   width: 100%;
   display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  align-items: center;
+  align-self: center;
+  justify-content: center;
+}
+
+h1{
+  text-align: center;
+  margin: 1%;
 }
 
 .photos-container {

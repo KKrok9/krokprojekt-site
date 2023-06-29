@@ -8,6 +8,11 @@
   padding: 0 12px;
 }
 
+h1{
+  font-weight: normal;
+}
+
+
 .gallery-pic {
   -webkit-transition: all 250ms ease;
   transition: all 250ms ease;
@@ -22,7 +27,7 @@
   transform: scale(1.01);
   filter: none;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
   .gallery-container {
     -webkit-column-count: 2;
     -moz-column-count: 2;
@@ -42,5 +47,9 @@
     -webkit-column-count: 1;
     -moz-column-count: 1;
     column-count: 1;
+  }
+  h1{
+    font-size: 18px;
+    font-weight: normal;
   }
 }

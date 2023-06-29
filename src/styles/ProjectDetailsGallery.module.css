@@ -58,10 +58,12 @@
 
 .modal-previous-button {
   left: 10px;
+  height: 40%;
 }
 
 .modal-next-button {
   right: 10px;
+  height: 40%;
 }
 
 .indicator-container {
