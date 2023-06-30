@@ -44,9 +44,13 @@ h1{
 
 @media (max-width: 619px) {
   .gallery-container {
+    margin-top: 20%;
     -webkit-column-count: 1;
     -moz-column-count: 1;
     column-count: 1;
+  }
+  .gallery-pic{
+    filter: saturate(50%);
   }
   h1{
     font-size: 18px;

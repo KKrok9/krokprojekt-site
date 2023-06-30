@@ -1,13 +1,14 @@
 const projectsData = [
   {
-    title: "HOTEL W UŚCIU GORLICKIM",
+    title: "DOM JEDNORODZINNY - 23P1",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/1.jpg",
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/2.jpg",
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/3.jpg",
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/4.jpg",
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/5.jpg",
+      "/strona-www/DOM JEDNORODZINNY - 23P1/1.jpg",
+      "/strona-www/DOM JEDNORODZINNY - 23P1/2.jpg",
+      "/strona-www/DOM JEDNORODZINNY - 23P1/3.jpg",
+      "/strona-www/DOM JEDNORODZINNY - 23P1/4.jpg",
+      "/strona-www/DOM JEDNORODZINNY - 23P1/5.jpg",
+      "/strona-www/DOM JEDNORODZINNY - 23P1/6.jpg",
     ],
   },
   {
@@ -23,6 +24,17 @@ const projectsData = [
       "/strona-www/2_REZYDENCJA W TANZANII/7.jpg",
       "/strona-www/2_REZYDENCJA W TANZANII/8.jpg",
       "/strona-www/2_REZYDENCJA W TANZANII/9.jpg",
+    ],
+  },
+  {
+    title: "KONCEPCJA PAWILONU WEJŚCIOWEGO W PARKU MINIATUR W ZABIERZOWIE",
+    content: "Jest to projekt hotelu w uściu gorlickim",
+    images: [
+      "/strona-www/5_KONCEPCJA PAWILONU WEJŚCIOWEGO W PARKU MINIATUR W ZABIERZOWIE/1.jpg",
+      "/strona-www/5_KONCEPCJA PAWILONU WEJŚCIOWEGO W PARKU MINIATUR W ZABIERZOWIE/2.jpg",
+      "/strona-www/5_KONCEPCJA PAWILONU WEJŚCIOWEGO W PARKU MINIATUR W ZABIERZOWIE/3.jpg",
+      "/strona-www/5_KONCEPCJA PAWILONU WEJŚCIOWEGO W PARKU MINIATUR W ZABIERZOWIE/4.jpg",
+      "/strona-www/5_KONCEPCJA PAWILONU WEJŚCIOWEGO W PARKU MINIATUR W ZABIERZOWIE/5.jpg",
     ],
   },
   {
@@ -51,72 +63,32 @@ const projectsData = [
       "/strona-www/3_HOTEL SEMIRAMIS W TANZANII/20.jpg",
     ],
   },
+
   {
-    title: "BUDYNEK WIELORODZINNY W KRAKOWIE NA UL. KOBIERZYŃSKIEJ",
+    title: "DOM JEDNORODZINNY W BIAŁEJ RAWSKIEJ",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
-      "/strona-www/4_BUDYNEK WIELORODZINNY W KRAKOWIE NA ULICY KOBIERZYŃSKIEJ/1.jpg",
-      "/strona-www/4_BUDYNEK WIELORODZINNY W KRAKOWIE NA ULICY KOBIERZYŃSKIEJ/2.jpg",
-      "/strona-www/4_BUDYNEK WIELORODZINNY W KRAKOWIE NA ULICY KOBIERZYŃSKIEJ/3.jpg",
-      "/strona-www/4_BUDYNEK WIELORODZINNY W KRAKOWIE NA ULICY KOBIERZYŃSKIEJ/4.jpg",
-      "/strona-www/4_BUDYNEK WIELORODZINNY W KRAKOWIE NA ULICY KOBIERZYŃSKIEJ/5.jpg",
-      "/strona-www/4_BUDYNEK WIELORODZINNY W KRAKOWIE NA ULICY KOBIERZYŃSKIEJ/6.jpg",
-      "/strona-www/4_BUDYNEK WIELORODZINNY W KRAKOWIE NA ULICY KOBIERZYŃSKIEJ/7.jpg",
-      "/strona-www/4_BUDYNEK WIELORODZINNY W KRAKOWIE NA ULICY KOBIERZYŃSKIEJ/8.jpg",
-      "/strona-www/4_BUDYNEK WIELORODZINNY W KRAKOWIE NA ULICY KOBIERZYŃSKIEJ/9.jpg",
-    ],
-  },
-  {
-    title: "KONCEPCJA PAWILONU WEJŚCIOWEGO W PARKU MINIATUR W ZABIERZOWIE",
-    content: "Jest to projekt hotelu w uściu gorlickim",
-    images: [
-      "/strona-www/5_KONCEPCJA PAWILONU WEJŚCIOWEGO W PARKU MINIATUR W ZABIERZOWIE/1.jpg",
-      "/strona-www/5_KONCEPCJA PAWILONU WEJŚCIOWEGO W PARKU MINIATUR W ZABIERZOWIE/2.jpg",
-      "/strona-www/5_KONCEPCJA PAWILONU WEJŚCIOWEGO W PARKU MINIATUR W ZABIERZOWIE/3.jpg",
-      "/strona-www/5_KONCEPCJA PAWILONU WEJŚCIOWEGO W PARKU MINIATUR W ZABIERZOWIE/4.jpg",
-      "/strona-www/5_KONCEPCJA PAWILONU WEJŚCIOWEGO W PARKU MINIATUR W ZABIERZOWIE/5.jpg",
-    ],
-  },
-  {
-    title: "BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE",
-    content: "Jest to projekt hotelu w uściu gorlickim",
-    images: [
-      "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/1.jpg",
-      "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/2.jpg",
-      "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/3.jpg",
-    ],
-  },
-  {
-    title: "MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI",
-    content: "Jest to projekt hotelu w uściu gorlickim",
-    images: [
-      "/strona-www/8_MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI/1.jpg",
-      "/strona-www/8_MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI/2.jpg",
-      "/strona-www/8_MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI/3.jpg",
-      "/strona-www/8_MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI/4.jpg",
-      "/strona-www/8_MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI/5.jpg",
+      "/strona-www/16_DOM JEDNORODZINNY W BIAŁEJ RAWSKIEJ/1.jpg",
+      "/strona-www/16_DOM JEDNORODZINNY W BIAŁEJ RAWSKIEJ/2.jpg",
+      "/strona-www/16_DOM JEDNORODZINNY W BIAŁEJ RAWSKIEJ/3.jpg",
+      "/strona-www/16_DOM JEDNORODZINNY W BIAŁEJ RAWSKIEJ/4.jpg",
+      "/strona-www/16_DOM JEDNORODZINNY W BIAŁEJ RAWSKIEJ/5.jpg",
+      "/strona-www/16_DOM JEDNORODZINNY W BIAŁEJ RAWSKIEJ/6.jpg",
+      "/strona-www/16_DOM JEDNORODZINNY W BIAŁEJ RAWSKIEJ/7.jpg",
+      "/strona-www/16_DOM JEDNORODZINNY W BIAŁEJ RAWSKIEJ/8.jpg",
+      "/strona-www/16_DOM JEDNORODZINNY W BIAŁEJ RAWSKIEJ/9.jpg",
     ],
   },
 
   {
-    title: "KIOSKI HANDLOWE ORAZ GASTRONOMICZNE W BERLINIE",
+    title: "HOTEL W UŚCIU GORLICKIM",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
-      "/strona-www/9_KIOSKI HANDLOWE ORAZ GASTRONOMICZNE W BERLINIE/1.jpg",
-      "/strona-www/9_KIOSKI HANDLOWE ORAZ GASTRONOMICZNE W BERLINIE/2.jpg",
-      "/strona-www/9_KIOSKI HANDLOWE ORAZ GASTRONOMICZNE W BERLINIE/3.jpg",
-    ],
-  },
-  {
-    title: "ZESPÓŁ BUDYNKÓW WIELORODZINNYCH W KONINIE ŻEGAŃSKIM",
-    content: "Jest to projekt hotelu w uściu gorlickim",
-    images: [
-      "/strona-www/10_ZESPÓŁ BUDYNKÓW WIELORODZINNYCH W KONINIE ŻEGAŃSKIM/1.jpg",
-      "/strona-www/10_ZESPÓŁ BUDYNKÓW WIELORODZINNYCH W KONINIE ŻEGAŃSKIM/2.jpg",
-      "/strona-www/10_ZESPÓŁ BUDYNKÓW WIELORODZINNYCH W KONINIE ŻEGAŃSKIM/3.jpg",
-      "/strona-www/10_ZESPÓŁ BUDYNKÓW WIELORODZINNYCH W KONINIE ŻEGAŃSKIM/4.jpg",
-      "/strona-www/10_ZESPÓŁ BUDYNKÓW WIELORODZINNYCH W KONINIE ŻEGAŃSKIM/5.jpg",
-      "/strona-www/10_ZESPÓŁ BUDYNKÓW WIELORODZINNYCH W KONINIE ŻEGAŃSKIM/6.jpg",
+      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/1.jpg",
+      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/2.jpg",
+      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/3.jpg",
+      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/4.jpg",
+      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/5.jpg",
     ],
   },
   {
@@ -142,12 +114,63 @@ const projectsData = [
     ],
   },
   {
+    title: "BUDYNEK WIELORODZINNY W KRAKOWIE NA UL. KOBIERZYŃSKIEJ",
+    content: "Jest to projekt hotelu w uściu gorlickim",
+    images: [
+      "/strona-www/4_BUDYNEK WIELORODZINNY W KRAKOWIE NA ULICY KOBIERZYŃSKIEJ/1.jpg",
+      "/strona-www/4_BUDYNEK WIELORODZINNY W KRAKOWIE NA ULICY KOBIERZYŃSKIEJ/2.jpg",
+      "/strona-www/4_BUDYNEK WIELORODZINNY W KRAKOWIE NA ULICY KOBIERZYŃSKIEJ/3.jpg",
+      "/strona-www/4_BUDYNEK WIELORODZINNY W KRAKOWIE NA ULICY KOBIERZYŃSKIEJ/4.jpg",
+      "/strona-www/4_BUDYNEK WIELORODZINNY W KRAKOWIE NA ULICY KOBIERZYŃSKIEJ/5.jpg",
+      "/strona-www/4_BUDYNEK WIELORODZINNY W KRAKOWIE NA ULICY KOBIERZYŃSKIEJ/6.jpg",
+      "/strona-www/4_BUDYNEK WIELORODZINNY W KRAKOWIE NA ULICY KOBIERZYŃSKIEJ/7.jpg",
+      "/strona-www/4_BUDYNEK WIELORODZINNY W KRAKOWIE NA ULICY KOBIERZYŃSKIEJ/8.jpg",
+      "/strona-www/4_BUDYNEK WIELORODZINNY W KRAKOWIE NA ULICY KOBIERZYŃSKIEJ/9.jpg",
+    ],
+  },
+
+  {
+    title: "ZESPÓŁ BUDYNKÓW WIELORODZINNYCH W KONINIE ŻEGAŃSKIM",
+    content: "Jest to projekt hotelu w uściu gorlickim",
+    images: [
+      "/strona-www/10_ZESPÓŁ BUDYNKÓW WIELORODZINNYCH W KONINIE ŻEGAŃSKIM/1.jpg",
+      "/strona-www/10_ZESPÓŁ BUDYNKÓW WIELORODZINNYCH W KONINIE ŻEGAŃSKIM/2.jpg",
+      "/strona-www/10_ZESPÓŁ BUDYNKÓW WIELORODZINNYCH W KONINIE ŻEGAŃSKIM/3.jpg",
+      "/strona-www/10_ZESPÓŁ BUDYNKÓW WIELORODZINNYCH W KONINIE ŻEGAŃSKIM/4.jpg",
+      "/strona-www/10_ZESPÓŁ BUDYNKÓW WIELORODZINNYCH W KONINIE ŻEGAŃSKIM/5.jpg",
+      "/strona-www/10_ZESPÓŁ BUDYNKÓW WIELORODZINNYCH W KONINIE ŻEGAŃSKIM/6.jpg",
+    ],
+  },
+  {
     title: "KONCEPCJA BUDYNKU BIUROWEGO PZU W ŁODZI",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
       "/strona-www/12_KONCEPCJA BUDYNKU BIUROWEGO PZU W ŁODZI/1.jpg",
       "/strona-www/12_KONCEPCJA BUDYNKU BIUROWEGO PZU W ŁODZI/2.jpg",
       "/strona-www/12_KONCEPCJA BUDYNKU BIUROWEGO PZU W ŁODZI/3.jpg",
+    ],
+  },
+
+  {
+    title: "MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI",
+    content: "Jest to projekt hotelu w uściu gorlickim",
+    images: [
+      "/strona-www/8_MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI/1.jpg",
+      "/strona-www/8_MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI/2.jpg",
+      "/strona-www/8_MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI/3.jpg",
+      "/strona-www/8_MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI/4.jpg",
+      "/strona-www/8_MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI/5.jpg",
+    ],
+  },
+
+  {
+    title: "BIUROWIEC QMODULAR W WĘGRZCACH WIELKICH",
+    content: "Jest to projekt hotelu w uściu gorlickim",
+    images: [
+      "/strona-www/15_BIUROWIEC QMODULAR W WĘGRZCACH WIELKICH/1.jpg",
+      "/strona-www/15_BIUROWIEC QMODULAR W WĘGRZCACH WIELKICH/2.jpg",
+      "/strona-www/15_BIUROWIEC QMODULAR W WĘGRZCACH WIELKICH/3.jpg",
+      "/strona-www/15_BIUROWIEC QMODULAR W WĘGRZCACH WIELKICH/4.jpg",
     ],
   },
   {
@@ -161,6 +184,20 @@ const projectsData = [
       "/strona-www/13_KONCEPCJA PAWILONU GASTRONOMICZNEGO W RUDAWIE/5.jpg",
     ],
   },
+
+  {
+    title: "DOM JEDNORODZINNY - 23P2",
+    content: "Jest to projekt hotelu w uściu gorlickim",
+    images: [
+      "/strona-www/DOM JEDNORODZINNY - 23P2/1.jpg",
+      "/strona-www/DOM JEDNORODZINNY - 23P2/2.jpg",
+      "/strona-www/DOM JEDNORODZINNY - 23P2/3.jpg",
+      "/strona-www/DOM JEDNORODZINNY - 23P2/4.jpg",
+      "/strona-www/DOM JEDNORODZINNY - 23P2/5.jpg",
+      "/strona-www/DOM JEDNORODZINNY - 23P2/6.jpg",
+    ],
+  },
+
   {
     title: "KONCEPCJA HOTELI NA WODZIE W ROŻOWIE",
     content: "Jest to projekt hotelu w uściu gorlickim",
@@ -170,6 +207,16 @@ const projectsData = [
       "/strona-www/14_KONCEPCJA HOTELI NA WODZIE W ROŻOWIE/3.jpg",
       "/strona-www/14_KONCEPCJA HOTELI NA WODZIE W ROŻOWIE/4.jpg",
       "/strona-www/14_KONCEPCJA HOTELI NA WODZIE W ROŻOWIE/5.jpg",
+    ],
+  },
+
+  {
+    title: "KIOSKI HANDLOWE ORAZ GASTRONOMICZNE W BERLINIE",
+    content: "Jest to projekt hotelu w uściu gorlickim",
+    images: [
+      "/strona-www/9_KIOSKI HANDLOWE ORAZ GASTRONOMICZNE W BERLINIE/1.jpg",
+      "/strona-www/9_KIOSKI HANDLOWE ORAZ GASTRONOMICZNE W BERLINIE/2.jpg",
+      "/strona-www/9_KIOSKI HANDLOWE ORAZ GASTRONOMICZNE W BERLINIE/3.jpg",
     ],
   },
 
@@ -202,24 +249,14 @@ const projectsData = [
       "/strona-www/DOM JEDNORODZINNY - 23L2/10.jpg",
     ],
   },
+
   {
-    title: "DOM JEDNORODZINNY - 23P1",
+    title: "BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
-      "/strona-www/DOM JEDNORODZINNY - 23P1/1.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23P1/2.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23P1/3.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23P1/4.jpg",
-    ],
-  },
-  {
-    title: "DOM JEDNORODZINNY - 23P2",
-    content: "Jest to projekt hotelu w uściu gorlickim",
-    images: [
-      "/strona-www/DOM JEDNORODZINNY - 23P2/1.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23P2/2.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23P2/3.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23P2/4.jpg",
+      "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/1.jpg",
+      "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/2.jpg",
+      "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/3.jpg",
     ],
   },
   {
@@ -230,6 +267,8 @@ const projectsData = [
       "/strona-www/DOM JEDNORODZINNY - 23X1/2.jpg",
       "/strona-www/DOM JEDNORODZINNY - 23X1/3.jpg",
       "/strona-www/DOM JEDNORODZINNY - 23X1/4.jpg",
+      "/strona-www/DOM JEDNORODZINNY - 23X1/5.jpg",
+      "/strona-www/DOM JEDNORODZINNY - 23X1/6.jpg",
     ],
   },
   {
@@ -260,50 +299,45 @@ const projectsData = [
 
 const iconsData = [
   {
-    title:"ANALIZA DZIAŁKI",
-    description:"",
-    path:"/icons/analiza.png"
+    title: "ANALIZA DZIAŁKI",
+    description: "",
+    path: "/icons/analiza.png",
   },
   {
-    title:"BUDOWNICTWO MODUŁOWE",
-    description:"",
-    path:"/icons/bud-modulowe.png"
+    title: "BUDOWNICTWO MODUŁOWE",
+    description: "",
+    path: "/icons/bud-modulowe.png",
   },
   {
-    title:"BUDOWNICTWO PASYWNE",
-    description:"",
-    path:"/icons/bud-pasywne.png"
+    title: "BUDOWNICTWO PASYWNE",
+    description: "",
+    path: "/icons/bud-pasywne.png",
   },
   {
-    title:"CHMURA PUNKTÓW",
-    description:"",
-    path:"/icons/chmura-punktow.png"
-  }
-  ,
+    title: "CHMURA PUNKTÓW",
+    description: "",
+    path: "/icons/chmura-punktow.png",
+  },
   {
-    title:"PROJEKTOWANIE BIM",
-    description:"",
-    path:"/icons/projektowanie-bim.png"
-  }
-  ,
+    title: "PROJEKTOWANIE BIM",
+    description: "",
+    path: "/icons/projektowanie-bim.png",
+  },
   {
-    title:"PROJEKTY INDYWIDUALNE",
-    description:"",
-    path:"/icons/projekty-indywidualne.png"
-  }
-  ,
+    title: "PROJEKTY INDYWIDUALNE",
+    description: "",
+    path: "/icons/projekty-indywidualne.png",
+  },
   {
-    title:"PROJEKTY WNĘTRZ",
-    description:"",
-    path:"/icons/projekty-wnetrz.png"
-  }
-  ,
+    title: "PROJEKTY WNĘTRZ",
+    description: "",
+    path: "/icons/projekty-wnetrz.png",
+  },
   {
-    title:"WIZUALIZACJE I ANIMACJE",
-    description:"",
-    path:"/icons/wizualizacje-animacje.png"
-  }
+    title: "WIZUALIZACJE I ANIMACJE",
+    description: "",
+    path: "/icons/wizualizacje-animacje.png",
+  },
+];
 
-]
-
-export {projectsData,iconsData};
+export { projectsData, iconsData };

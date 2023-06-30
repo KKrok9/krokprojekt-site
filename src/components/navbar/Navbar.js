@@ -30,7 +30,7 @@ const Navbar = () => {
       <div className={styles["container"]} ref={navbarRef}>
         <div className={styles["logo"]}>
           <Link to="/" className={styles["logo-link"]}>
-            <img src="./logo.jpg" alt="logo" className={styles["logo-content"]}></img>
+            <img src="/logo.jpg" alt="logo" className={styles["logo-content"]}></img>
           </Link>
         </div>
         <div

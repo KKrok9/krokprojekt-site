@@ -14,7 +14,7 @@ const Details = () => {
   return (
     <div className={styles["container"]}>
       <div className={styles["navbar"]}>
-        <Navbar />
+        <Navbar/>
       </div>
       <div className={styles["details-container"]}>
         <div className={styles["description-container"]}>

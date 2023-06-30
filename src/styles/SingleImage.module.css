@@ -9,6 +9,7 @@
   height: 35vh;
   transition: all 250ms ease;
   cursor: pointer;
+  object-fit: cover;
 }
 
 .image-overlay {
