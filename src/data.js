@@ -258,4 +258,52 @@ const projectsData = [
   },
 ];
 
-export default projectsData;
+const iconsData = [
+  {
+    title:"ANALIZA DZIAŁKI",
+    description:"",
+    path:"/icons/analiza.png"
+  },
+  {
+    title:"BUDOWNICTWO MODUŁOWE",
+    description:"",
+    path:"/icons/bud-modulowe.png"
+  },
+  {
+    title:"BUDOWNICTWO PASYWNE",
+    description:"",
+    path:"/icons/bud-pasywne.png"
+  },
+  {
+    title:"CHMURA PUNKTÓW",
+    description:"",
+    path:"/icons/chmura-punktow.png"
+  }
+  ,
+  {
+    title:"PROJEKTOWANIE BIM",
+    description:"",
+    path:"/icons/projektowanie-bim.png"
+  }
+  ,
+  {
+    title:"PROJEKTY INDYWIDUALNE",
+    description:"",
+    path:"/icons/projekty-indywidualne.png"
+  }
+  ,
+  {
+    title:"PROJEKTY WNĘTRZ",
+    description:"",
+    path:"/icons/projekty-wnetrz.png"
+  }
+  ,
+  {
+    title:"WIZUALIZACJE I ANIMACJE",
+    description:"",
+    path:"/icons/wizualizacje-animacje.png"
+  }
+
+]
+
+export {projectsData,iconsData};

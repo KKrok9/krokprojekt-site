@@ -1,11 +1,11 @@
 import Navbar from "../components/navbar/Navbar";
 import Gallery from "../components/gallery/Gallery";
 import styles from "../styles/Home.module.css";
-import projectsData from "../data";
+import {projectsData} from "../data";
 
 function Home() {
   return (
-    <div>
+    <div className={styles["container"]}>
       <div className={styles["navbar"]}>
         <Navbar />
       </div>

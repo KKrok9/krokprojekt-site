@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import styles from "../../styles/Navbar.module.css";
-import logo from "../../images/logo.jpg";
 import MenuIcon from "@mui/icons-material/Menu";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
@@ -29,7 +29,9 @@ const Navbar = () => {
     <nav className={styles["navbar"]}>
       <div className={styles["container"]} ref={navbarRef}>
         <div className={styles["logo"]}>
-          <img src={logo} alt="logo" className={styles["logo-content"]} />
+          <Link to="/" className={styles["logo-link"]}>
+            <img src="./logo.jpg" alt="logo" className={styles["logo-content"]}></img>
+          </Link>
         </div>
         <div
           className={`${styles["navbar-elements"]} ${
@@ -48,18 +50,18 @@ const Navbar = () => {
               isNavbarOpen && styles["active"]
             }`}
           >
-            OFERTA
+            <a href="/offer">OFERTA</a>
           </li>
           <li
             className={`${styles["navbar-element"]} ${
               isNavbarOpen && styles["active"]
             }`}
           >
-            KONTAKT
+            <a href="/contact">KONTAKT</a>
           </li>
         </div>
         <div className={styles["navbar-open"]} onClick={toggleNavbarOpen}>
-            <MenuIcon></MenuIcon>
+          <MenuIcon></MenuIcon>
         </div>
       </div>
       {isNavbarOpen && (

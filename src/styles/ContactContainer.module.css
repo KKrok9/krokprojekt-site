@@ -1,0 +1,44 @@
+.container {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  transition: box-shadow 500ms ease-in-out, border-radius 500ms ease-in-out; /* Zmienione transition */
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container:hover {
+  box-shadow: 0px 1px 17px 1px rgba(135, 135, 159, 1);
+  border-radius: 20px;
+}
+
+.logo {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.owner {
+  width: 50%;
+}
+.phone {
+  width: 50%;
+}
+.email {
+  width: 50%;
+}
+.linkedin {
+  
+  width: 50%;
+}
+
+@media (max-width: 767px) {
+  .logo {
+    width: 80%;
+  }
+  p{
+    font-size: 12px;
+  }
+}

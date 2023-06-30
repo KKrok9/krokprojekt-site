@@ -1,7 +1,7 @@
 import Navbar from "../components/navbar/Navbar";
 import styles from "../styles/Details.module.css";
 import { useParams } from "react-router-dom";
-import projectsData from "../data";
+import {projectsData} from "../data";
 import ProjectDetailsGallery from "../components/projectDetailsGallery/ProjectDetailsGallery";
 
 const Details = () => {
