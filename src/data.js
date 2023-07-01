@@ -291,8 +291,6 @@ const projectsData = [
       "/strona-www/DOM JEDNORODZINNY - 23Z2/2.jpg",
       "/strona-www/DOM JEDNORODZINNY - 23Z2/3.jpg",
       "/strona-www/DOM JEDNORODZINNY - 23Z2/4.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23Z2/5.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23Z2/6.jpg",
     ],
   },
 ];
