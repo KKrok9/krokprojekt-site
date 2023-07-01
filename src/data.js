@@ -6,7 +6,6 @@ const projectsData = [
       "/strona-www/DOM JEDNORODZINNY - 23P1/1.jpg",
       "/strona-www/DOM JEDNORODZINNY - 23P1/2.jpg",
       "/strona-www/DOM JEDNORODZINNY - 23P1/3.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23P1/4.jpg",
       "/strona-www/DOM JEDNORODZINNY - 23P1/5.jpg",
       "/strona-www/DOM JEDNORODZINNY - 23P1/6.jpg",
     ],
