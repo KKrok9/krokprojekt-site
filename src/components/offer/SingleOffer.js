@@ -6,7 +6,6 @@ const SingleOffer = ({ img, alt, title }) => {
       <div className={styles["image-container"]}>
         <img className={styles["image"]} src={img} alt={alt} />
       </div>
-
       <p>{title}</p>
     </div>
   );

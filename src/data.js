@@ -297,6 +297,11 @@ const projectsData = [
 
 const iconsData = [
   {
+    title: "PROJEKTY INDYWIDUALNE",
+    description: "",
+    path: "/icons/projekty-indywidualne.png",
+  },
+  {
     title: "ANALIZA DZIAŁKI",
     description: "",
     path: "/icons/analiza.png",
@@ -321,11 +326,7 @@ const iconsData = [
     description: "",
     path: "/icons/projektowanie-bim.png",
   },
-  {
-    title: "PROJEKTY INDYWIDUALNE",
-    description: "",
-    path: "/icons/projekty-indywidualne.png",
-  },
+
   {
     title: "PROJEKTY WNĘTRZ",
     description: "",
