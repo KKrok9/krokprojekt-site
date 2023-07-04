@@ -4,7 +4,7 @@ const ContactContainer = () => {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
-        <h1>ZAPRASZAMY DO KONTAKTU</h1>
+        <h1 className={styles.header}>ZAPRASZAMY DO KONTAKTU</h1>
       </div>
 
       <div className={styles.logo}>
@@ -22,7 +22,7 @@ const ContactContainer = () => {
       </div>
 
       <div className={styles.email}>
-        <p>E-MAIL: biuro@mkprojekt.pl</p>
+        <p>E-MAIL: biuro@krokprojekt.pl</p>
       </div>
 
       <div className={styles.linkedin}>
