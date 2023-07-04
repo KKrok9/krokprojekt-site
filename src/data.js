@@ -84,10 +84,10 @@ const projectsData = [
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
       "http://drive.google.com/uc?export=view&id=1Xqw76pYop2zONCFd3JxJsBNHX5Uk15_N",
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/2.jpg",
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/3.jpg",
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/4.jpg",
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/5.jpg",
+      "http://drive.google.com/uc?export=view&id=1xiFCpYmaT5GVM-FAr3Y1vUPW0EyerHZV",
+      "http://drive.google.com/uc?export=view&id=129O174IchjnaBOhMfdoNsFeTD7OGO6S9",
+      "http://drive.google.com/uc?export=view&id=1ep6Hgqic8BZkDoifHRqUYPI94S8r-qhv",
+      "http://drive.google.com/uc?export=view&id=1dqKpJwo3LtRWbhnwdpi-xHwMlfFBzzug",
     ],
   },
   {
