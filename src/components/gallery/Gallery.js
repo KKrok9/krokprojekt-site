@@ -13,7 +13,7 @@ const Gallery = (props) => {
         return (
           <div key={index} className={styles["gallery-pic"]}>
             <Link to={`/project/${item.title}`}>
-              <Suspense fallback={<div>Loading...</div>}>
+              <Suspense fallback={<div></div>}>
                 <SingleImage
                   img={item.images}
                   firstImg={item.images[0]}
