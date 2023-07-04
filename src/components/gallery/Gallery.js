@@ -1,6 +1,8 @@
-import SingleImage from "./SingleImage";
-import styles from "../../styles/Gallery.module.css";
+import React, { Suspense } from "react";
 import { Link } from "react-router-dom";
+import styles from "../../styles/Gallery.module.css";
+
+const SingleImage = React.lazy(() => import("./SingleImage"));
 
 const Gallery = (props) => {
   const projectsData = props.projectsData;
@@ -9,14 +11,16 @@ const Gallery = (props) => {
     <div className={styles["gallery-container"]}>
       {projectsData.map((item, index) => {
         return (
-          <div key={index}  className={styles["gallery-pic"]}>
+          <div key={index} className={styles["gallery-pic"]}>
             <Link to={`/project/${item.title}`}>
-              <SingleImage
-                img={item.images} 
-                firstImg={item.images[0]}
-                alt="item"
-                title={item.title}
-              ></SingleImage>
+              <Suspense fallback={<div>Loading...</div>}>
+                <SingleImage
+                  img={item.images}
+                  firstImg={item.images[0]}
+                  alt="item"
+                  title={item.title}
+                />
+              </Suspense>
             </Link>
           </div>
         );
