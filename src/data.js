@@ -42,26 +42,26 @@ const projectsData = [
     title: "HOTEL SEMIRAMIS W TANZANII",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
-      "/strona-www/3_HOTEL SEMIRAMIS W TANZANII/1.jpg",
-      "/strona-www/3_HOTEL SEMIRAMIS W TANZANII/2.jpg",
-      "/strona-www/3_HOTEL SEMIRAMIS W TANZANII/3.jpg",
-      "/strona-www/3_HOTEL SEMIRAMIS W TANZANII/4.jpg",
-      "/strona-www/3_HOTEL SEMIRAMIS W TANZANII/5.jpg",
-      "/strona-www/3_HOTEL SEMIRAMIS W TANZANII/6.jpg",
-      "/strona-www/3_HOTEL SEMIRAMIS W TANZANII/7.jpg",
-      "/strona-www/3_HOTEL SEMIRAMIS W TANZANII/8.jpg",
-      "/strona-www/3_HOTEL SEMIRAMIS W TANZANII/9.jpg",
-      "/strona-www/3_HOTEL SEMIRAMIS W TANZANII/10.jpg",
-      "/strona-www/3_HOTEL SEMIRAMIS W TANZANII/11.jpg",
-      "/strona-www/3_HOTEL SEMIRAMIS W TANZANII/12.jpg",
-      "/strona-www/3_HOTEL SEMIRAMIS W TANZANII/13.jpg",
-      "/strona-www/3_HOTEL SEMIRAMIS W TANZANII/14.jpg",
-      "/strona-www/3_HOTEL SEMIRAMIS W TANZANII/15.jpg",
-      "/strona-www/3_HOTEL SEMIRAMIS W TANZANII/16.jpg",
-      "/strona-www/3_HOTEL SEMIRAMIS W TANZANII/17.jpg",
-      "/strona-www/3_HOTEL SEMIRAMIS W TANZANII/18.jpg",
-      "/strona-www/3_HOTEL SEMIRAMIS W TANZANII/19.jpg",
-      "/strona-www/3_HOTEL SEMIRAMIS W TANZANII/20.jpg",
+      "http://drive.google.com/uc?export=view&id=1V4MA2985_xCAr4Ds1Az1-6ONdR4i-mDv",
+      "http://drive.google.com/uc?export=view&id=1r9gm5rMhIH1n5XP4mDzxa9h0NXnbA9co",
+      "http://drive.google.com/uc?export=view&id=1wvl46ZGmCYNd_JyWiRKs1HHFiu9neu6-",
+      "http://drive.google.com/uc?export=view&id=1GEtJd5MATjILsHcrR6RPf-SG8YzsMqvM",
+      "http://drive.google.com/uc?export=view&id=1WoVaj_ahS6VMTN1S4cgkW8mGTaj7257W",
+      "http://drive.google.com/uc?export=view&id=17-tlHUoMtALS1BBhAYczI7HkWxZBipib",
+      "http://drive.google.com/uc?export=view&id=1JP5wWLKC7Wa20XEfetf68APeEnc-ibOV",
+      "http://drive.google.com/uc?export=view&id=1JTPVy3rDqquKdrI7xmDdK9H9dxNoqAtJ",
+      "http://drive.google.com/uc?export=view&id=12OCfXc18fPw9d3gibOHnlGPT0eyKJwAV",
+      "http://drive.google.com/uc?export=view&id=1jUpJ-2MHaZEnJTahx2wjTPgZ6V3KYjvG",
+      "http://drive.google.com/uc?export=view&id=1av-Qsbf_0lrXozB1jNVCsEojNj-t-lO4",
+      "http://drive.google.com/uc?export=view&id=1Gv_Vh_o0cPivIb0BelMcN38LcdA6CYGM",
+      "http://drive.google.com/uc?export=view&id=1_7nIUXoVlJ0yUry86A5c4NXboozTs5L9",
+      "http://drive.google.com/uc?export=view&id=1t6DlFR7fjtlIRjEnhfU9BEndOR14Q7yd",
+      "http://drive.google.com/uc?export=view&id=1n5osuqCDfvkxA2fQvykodJtShWYueRJJ",
+      "http://drive.google.com/uc?export=view&id=1MdVfaZXGwz6Vtw5hN_8qI1WkrAynjZZI",
+      "http://drive.google.com/uc?export=view&id=1E27rFdRolJNiQdqdOxDo34jLFZi0-KLY",
+      "http://drive.google.com/uc?export=view&id=1FbTMBuI8VRcel6t3H6Sk6wgNtDN0rJ4D",
+      "http://drive.google.com/uc?export=view&id=1UZWTdlwKAyTww00FjUlujk3JL8sz8z75",
+      "http://drive.google.com/uc?export=view&id=1jg7tlLDcaPDtJnfLh3xdbV2l14xsguzw",
     ],
   },
 
@@ -69,15 +69,7 @@ const projectsData = [
     title: "DOM JEDNORODZINNY W BIAŁEJ RAWSKIEJ",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
-      "/strona-www/16_DOM JEDNORODZINNY W BIAŁEJ RAWSKIEJ/1.jpg",
-      "/strona-www/16_DOM JEDNORODZINNY W BIAŁEJ RAWSKIEJ/2.jpg",
-      "/strona-www/16_DOM JEDNORODZINNY W BIAŁEJ RAWSKIEJ/3.jpg",
-      "/strona-www/16_DOM JEDNORODZINNY W BIAŁEJ RAWSKIEJ/4.jpg",
-      "/strona-www/16_DOM JEDNORODZINNY W BIAŁEJ RAWSKIEJ/5.jpg",
-      "/strona-www/16_DOM JEDNORODZINNY W BIAŁEJ RAWSKIEJ/6.jpg",
-      "/strona-www/16_DOM JEDNORODZINNY W BIAŁEJ RAWSKIEJ/7.jpg",
-      "/strona-www/16_DOM JEDNORODZINNY W BIAŁEJ RAWSKIEJ/8.jpg",
-      "/strona-www/16_DOM JEDNORODZINNY W BIAŁEJ RAWSKIEJ/9.jpg",
+     //9
     ],
   },
 
@@ -96,37 +88,14 @@ const projectsData = [
     title: "MODULARCITY - KONCEPCJA HOTELI MODUŁOWYCH",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
-      "/strona-www/11_MODULARCITY - KONCEPCJA HOTELI MODUŁOWYCH/1.jpg",
-      "/strona-www/11_MODULARCITY - KONCEPCJA HOTELI MODUŁOWYCH/2.jpg",
-      "/strona-www/11_MODULARCITY - KONCEPCJA HOTELI MODUŁOWYCH/3.jpg",
-      "/strona-www/11_MODULARCITY - KONCEPCJA HOTELI MODUŁOWYCH/4.jpg",
-      "/strona-www/11_MODULARCITY - KONCEPCJA HOTELI MODUŁOWYCH/5.jpg",
-      "/strona-www/11_MODULARCITY - KONCEPCJA HOTELI MODUŁOWYCH/6.jpg",
-      "/strona-www/11_MODULARCITY - KONCEPCJA HOTELI MODUŁOWYCH/7.jpg",
-      "/strona-www/11_MODULARCITY - KONCEPCJA HOTELI MODUŁOWYCH/8.jpg",
-      "/strona-www/11_MODULARCITY - KONCEPCJA HOTELI MODUŁOWYCH/9.jpg",
-      "/strona-www/11_MODULARCITY - KONCEPCJA HOTELI MODUŁOWYCH/10.jpg",
-      "/strona-www/11_MODULARCITY - KONCEPCJA HOTELI MODUŁOWYCH/11.jpg",
-      "/strona-www/11_MODULARCITY - KONCEPCJA HOTELI MODUŁOWYCH/12.jpg",
-      "/strona-www/11_MODULARCITY - KONCEPCJA HOTELI MODUŁOWYCH/13.jpg",
-      "/strona-www/11_MODULARCITY - KONCEPCJA HOTELI MODUŁOWYCH/14.jpg",
-      "/strona-www/11_MODULARCITY - KONCEPCJA HOTELI MODUŁOWYCH/15.jpg",
-      "/strona-www/11_MODULARCITY - KONCEPCJA HOTELI MODUŁOWYCH/16.jpg",
+      //16
     ],
   },
   {
     title: "BUDYNEK WIELORODZINNY W KRAKOWIE NA UL. KOBIERZYŃSKIEJ",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
-      "/strona-www/4_BUDYNEK WIELORODZINNY W KRAKOWIE NA ULICY KOBIERZYŃSKIEJ/1.jpg",
-      "/strona-www/4_BUDYNEK WIELORODZINNY W KRAKOWIE NA ULICY KOBIERZYŃSKIEJ/2.jpg",
-      "/strona-www/4_BUDYNEK WIELORODZINNY W KRAKOWIE NA ULICY KOBIERZYŃSKIEJ/3.jpg",
-      "/strona-www/4_BUDYNEK WIELORODZINNY W KRAKOWIE NA ULICY KOBIERZYŃSKIEJ/4.jpg",
-      "/strona-www/4_BUDYNEK WIELORODZINNY W KRAKOWIE NA ULICY KOBIERZYŃSKIEJ/5.jpg",
-      "/strona-www/4_BUDYNEK WIELORODZINNY W KRAKOWIE NA ULICY KOBIERZYŃSKIEJ/6.jpg",
-      "/strona-www/4_BUDYNEK WIELORODZINNY W KRAKOWIE NA ULICY KOBIERZYŃSKIEJ/7.jpg",
-      "/strona-www/4_BUDYNEK WIELORODZINNY W KRAKOWIE NA ULICY KOBIERZYŃSKIEJ/8.jpg",
-      "/strona-www/4_BUDYNEK WIELORODZINNY W KRAKOWIE NA ULICY KOBIERZYŃSKIEJ/9.jpg",
+     //9
     ],
   },
 
@@ -134,21 +103,14 @@ const projectsData = [
     title: "ZESPÓŁ BUDYNKÓW WIELORODZINNYCH W KONINIE ŻEGAŃSKIM",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
-      "/strona-www/10_ZESPÓŁ BUDYNKÓW WIELORODZINNYCH W KONINIE ŻEGAŃSKIM/1.jpg",
-      "/strona-www/10_ZESPÓŁ BUDYNKÓW WIELORODZINNYCH W KONINIE ŻEGAŃSKIM/2.jpg",
-      "/strona-www/10_ZESPÓŁ BUDYNKÓW WIELORODZINNYCH W KONINIE ŻEGAŃSKIM/3.jpg",
-      "/strona-www/10_ZESPÓŁ BUDYNKÓW WIELORODZINNYCH W KONINIE ŻEGAŃSKIM/4.jpg",
-      "/strona-www/10_ZESPÓŁ BUDYNKÓW WIELORODZINNYCH W KONINIE ŻEGAŃSKIM/5.jpg",
-      "/strona-www/10_ZESPÓŁ BUDYNKÓW WIELORODZINNYCH W KONINIE ŻEGAŃSKIM/6.jpg",
+      //6
     ],
   },
   {
     title: "KONCEPCJA BUDYNKU BIUROWEGO PZU W ŁODZI",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
-      "/strona-www/12_KONCEPCJA BUDYNKU BIUROWEGO PZU W ŁODZI/1.jpg",
-      "/strona-www/12_KONCEPCJA BUDYNKU BIUROWEGO PZU W ŁODZI/2.jpg",
-      "/strona-www/12_KONCEPCJA BUDYNKU BIUROWEGO PZU W ŁODZI/3.jpg",
+      //3
     ],
   },
 
@@ -156,11 +118,7 @@ const projectsData = [
     title: "MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
-      "/strona-www/8_MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI/1.jpg",
-      "/strona-www/8_MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI/2.jpg",
-      "/strona-www/8_MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI/3.jpg",
-      "/strona-www/8_MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI/4.jpg",
-      "/strona-www/8_MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI/5.jpg",
+      //5
     ],
   },
 
@@ -168,21 +126,14 @@ const projectsData = [
     title: "BIUROWIEC QMODULAR W WĘGRZCACH WIELKICH",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
-      "/strona-www/15_BIUROWIEC QMODULAR W WĘGRZCACH WIELKICH/1.jpg",
-      "/strona-www/15_BIUROWIEC QMODULAR W WĘGRZCACH WIELKICH/2.jpg",
-      "/strona-www/15_BIUROWIEC QMODULAR W WĘGRZCACH WIELKICH/3.jpg",
-      "/strona-www/15_BIUROWIEC QMODULAR W WĘGRZCACH WIELKICH/4.jpg",
+     //4
     ],
   },
   {
     title: "KONCEPCJA PAWILONU GASTRONOMICZNEGO W RUDAWIE",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
-      "/strona-www/13_KONCEPCJA PAWILONU GASTRONOMICZNEGO W RUDAWIE/1.jpg",
-      "/strona-www/13_KONCEPCJA PAWILONU GASTRONOMICZNEGO W RUDAWIE/2.jpg",
-      "/strona-www/13_KONCEPCJA PAWILONU GASTRONOMICZNEGO W RUDAWIE/3.jpg",
-      "/strona-www/13_KONCEPCJA PAWILONU GASTRONOMICZNEGO W RUDAWIE/4.jpg",
-      "/strona-www/13_KONCEPCJA PAWILONU GASTRONOMICZNEGO W RUDAWIE/5.jpg",
+     //5
     ],
   },
 
@@ -190,12 +141,7 @@ const projectsData = [
     title: "DOM JEDNORODZINNY - 23P2",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
-      "/strona-www/DOM JEDNORODZINNY - 23P2/1.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23P2/2.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23P2/3.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23P2/4.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23P2/5.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23P2/6.jpg",
+      //6
     ],
   },
 
@@ -203,11 +149,7 @@ const projectsData = [
     title: "KONCEPCJA HOTELI NA WODZIE W ROŻNOWIE",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
-      "/strona-www/14_KONCEPCJA HOTELI NA WODZIE W ROŻOWIE/1.jpg",
-      "/strona-www/14_KONCEPCJA HOTELI NA WODZIE W ROŻOWIE/2.jpg",
-      "/strona-www/14_KONCEPCJA HOTELI NA WODZIE W ROŻOWIE/3.jpg",
-      "/strona-www/14_KONCEPCJA HOTELI NA WODZIE W ROŻOWIE/4.jpg",
-      "/strona-www/14_KONCEPCJA HOTELI NA WODZIE W ROŻOWIE/5.jpg",
+     //5
     ],
   },
 
@@ -215,9 +157,7 @@ const projectsData = [
     title: "KIOSKI HANDLOWE ORAZ GASTRONOMICZNE W BERLINIE",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
-      "/strona-www/9_KIOSKI HANDLOWE ORAZ GASTRONOMICZNE W BERLINIE/1.jpg",
-      "/strona-www/9_KIOSKI HANDLOWE ORAZ GASTRONOMICZNE W BERLINIE/2.jpg",
-      "/strona-www/9_KIOSKI HANDLOWE ORAZ GASTRONOMICZNE W BERLINIE/3.jpg",
+      //3
     ],
   },
 
@@ -225,29 +165,14 @@ const projectsData = [
     title: "DOM JEDNORODZINNY - 23L1",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
-      "/strona-www/DOM JEDNORODZINNY - 23L1/1.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23L1/2.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23L1/3.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23L1/4.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23L1/5.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23L1/6.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23L1/7.jpg",
+      //7
     ],
   },
   {
     title: "DOM JEDNORODZINNY - 23L2",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
-      "/strona-www/DOM JEDNORODZINNY - 23L2/1.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23L2/2.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23L2/3.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23L2/4.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23L2/5.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23L2/6.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23L2/7.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23L2/8.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23L2/9.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23L2/10.jpg",
+     //10
     ],
   },
 
@@ -255,43 +180,28 @@ const projectsData = [
     title: "BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
-      "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/1.jpg",
-      "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/2.jpg",
-      "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/3.jpg",
+      //3
     ],
   },
   {
     title: "DOM JEDNORODZINNY - 23X1",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
-      "/strona-www/DOM JEDNORODZINNY - 23X1/1.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23X1/2.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23X1/3.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23X1/4.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23X1/5.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23X1/6.jpg",
+      //6
     ],
   },
   {
     title: "DOM JEDNORODZINNY - 23Z1",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
-      "/strona-www/DOM JEDNORODZINNY - 23Z1/1.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23Z1/2.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23Z1/3.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23Z1/4.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23Z1/5.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23Z1/6.jpg",
+      //6
     ],
   },
   {
     title: "DOM JEDNORODZINNY - 23Z2",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
-      "/strona-www/DOM JEDNORODZINNY - 23Z2/1.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23Z2/2.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23Z2/3.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23Z2/4.jpg",
+     //4
     ],
   },
 ];
