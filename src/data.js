@@ -1,3 +1,4 @@
+
 const projectsData = [
   {
     title: "DOM JEDNORODZINNY - 23P1",
@@ -83,11 +84,11 @@ const projectsData = [
     title: "HOTEL W UŚCIU GORLICKIM",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/1.jpg",
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/2.jpg",
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/3.jpg",
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/4.jpg",
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/5.jpg",
+      "https://raw.githubusercontent.com/KKrok9/krokprojekt-site/main/public/strona-www/1_HOTEL%20W%20U%C5%9ACIU%20GORLICKIM/1.jpg",
+      "https://raw.githubusercontent.com/KKrok9/krokprojekt-site/main/public/strona-www/1_HOTEL%20W%20U%C5%9ACIU%20GORLICKIM/2.jpg",
+      "https://raw.githubusercontent.com/KKrok9/krokprojekt-site/main/public/strona-www/1_HOTEL%20W%20U%C5%9ACIU%20GORLICKIM/3.jpg",
+      "https://raw.githubusercontent.com/KKrok9/krokprojekt-site/main/public/strona-www/1_HOTEL%20W%20U%C5%9ACIU%20GORLICKIM/4.jpg",
+      "https://raw.githubusercontent.com/KKrok9/krokprojekt-site/main/public/strona-www/1_HOTEL%20W%20U%C5%9ACIU%20GORLICKIM/5.jpg",
     ],
   },
   {
