@@ -4,7 +4,7 @@ const ContactContainer = () => {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
-        <p>ZAPRASZAMY DO KONTAKTU</p>
+        <p className={styles.para}>ZAPRASZAMY DO KONTAKTU</p>
       </div>
 
       <div className={styles.logo}>
@@ -12,21 +12,21 @@ const ContactContainer = () => {
       </div>
 
       <div className={styles.owner}>
-        <p>BIURO PROJEKTOWE</p>
+        <p className={styles.para}>BIURO PROJEKTOWE</p>
         <br></br>
-        <p>ARCHITEKT MARIUSZ KROK</p>
+        <p className={styles.para}>ARCHITEKT MARIUSZ KROK</p>
       </div>
 
       <div className={styles.phone}>
-        <p>TELEFON: 733996580 </p>
+        <p className={styles.para}>TELEFON: 733996580 </p>
       </div>
 
       <div className={styles.email}>
-        <p>E-MAIL: biuro@krokprojekt.pl</p>
+        <p className={styles.para}>E-MAIL: biuro@krokprojekt.pl</p>
       </div>
 
       <div className={styles.linkedin}>
-        <p>
+        <p className={styles.para}>
           <a
             href="https://www.linkedin.com/in/mariuszkrok/"
             className={styles.link}
