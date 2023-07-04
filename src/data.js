@@ -1,4 +1,3 @@
-
 const projectsData = [
   {
     title: "DOM JEDNORODZINNY - 23P1",
@@ -84,7 +83,7 @@ const projectsData = [
     title: "HOTEL W UŚCIU GORLICKIM",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/1.jpg",
+      "http://drive.google.com/uc?export=view&id=1Xqw76pYop2zONCFd3JxJsBNHX5Uk15_N",
       "/strona-www/1_HOTEL W UŚCIU GORLICKIM/2.jpg",
       "/strona-www/1_HOTEL W UŚCIU GORLICKIM/3.jpg",
       "/strona-www/1_HOTEL W UŚCIU GORLICKIM/4.jpg",
