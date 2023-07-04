@@ -12,7 +12,7 @@ const Gallery = (props) => {
           <div key={index}  className={styles["gallery-pic"]}>
             <Link to={`/project/${item.title}`}>
               <SingleImage
-                img={item.images}
+                img={item.images} 
                 firstImg={item.images[0]}
                 alt="item"
                 title={item.title}
