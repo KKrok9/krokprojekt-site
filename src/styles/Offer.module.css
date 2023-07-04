@@ -2,9 +2,6 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .navbar {
@@ -16,9 +13,8 @@
 }
 
 .offers-list {
-  width: 70%;
   height: 90%;
-  margin-top: 4%;
+  margin-top: 5%;
   overflow: hidden;
   display: flex;
   justify-content: center;

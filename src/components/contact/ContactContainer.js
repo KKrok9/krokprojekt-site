@@ -4,7 +4,7 @@ const ContactContainer = () => {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
-        <h1 className={styles.header}>ZAPRASZAMY DO KONTAKTU</h1>
+        <p>ZAPRASZAMY DO KONTAKTU</p>
       </div>
 
       <div className={styles.logo}>
@@ -27,11 +27,11 @@ const ContactContainer = () => {
 
       <div className={styles.linkedin}>
         <p>
-        
           <a
             href="https://www.linkedin.com/in/mariuszkrok/"
             className={styles.link}
-          >LINKEDIN : https://www.linkedin.com/in/mariuszkrok/
+          >
+            LINKEDIN : https://www.linkedin.com/in/mariuszkrok/
           </a>
         </p>
       </div>

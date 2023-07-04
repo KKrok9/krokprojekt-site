@@ -9,6 +9,7 @@ const Offer = () => {
       <div className={styles["navbar"]}>
         <Navbar />
       </div>
+      
       <div className={styles["offers-list"]}>
         <OffersGallery iconsData={iconsData} />
       </div>
