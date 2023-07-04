@@ -1,4 +1,3 @@
-
 const projectsData = [
   {
     title: "DOM JEDNORODZINNY - 23P1",
@@ -84,11 +83,10 @@ const projectsData = [
     title: "HOTEL W UŚCIU GORLICKIM",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/1.jpg",
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/2.jpg",
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/3.jpg",
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/4.jpg",
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/5.jpg",
+      "https://previews.dropbox.com/p/thumb/AB-m5xGzcwq9dJ1UT_Gw66WwJBAsw0r8BV-I5dokFP1N3AQ6AjSRd7Y_5A8Oys6VddS5ArVFDe2O7Aq145AaX4ZyWnMncTISHxPByUKdghNtbX-IwFGS5UHCuch4A6B1pKKLGQ0Ym_7rc0pixDa-yahW3P9Eia6MfpdlhYgolX5VVaaDGva_zEKTj-2Q1CEnkCUo55OYw4nhl1J50fhLnKHeOIFr7UWMttqj91KE9mAwna-76hzRFXeGRla0NHBUb-akkcEjSxu07MpTpyJSZ3g7b1mbKiEY5wgwqe8oMnVGqBR_reYhc4PxGBwZFqDOhXOTyrFNWr3PZpC1mHK4G2sKL8Du7BplVwYrjSZuhagT6w/p.jpeg",
+      "https://previews.dropbox.com/p/thumb/AB8SE3D_fDNLjdeRoIUcBxphVqliFgdq2ofQJJY-97moZhnLFJvqm-0TIx8bSy7cCjWiUeZ2hioF6l5pfbSEoz8zWfPSeYzH6R1sj83M0XaWK08vsTo-TBfvt8p7imR7TfftiVcvloSjaLmIUGWirwP8PXX-Lfm-6ROoulnDNX77_9uuY7KbpZwMYaiMHCBzwuVvQz6eqBVZ3aYsQtjbLF2UWOXZaEwJwQhAFzWUTt7N10H0SbJNzUWDaGylojiB4-0buTQPHauOivKmm-rTQN8J0LXQN8T31xbwIMi6m39XtOpUDxeP_MF73zbbyqLblPs0gpyiFxd0bEpLg_gncYMkCcocs9v9-z4Hl2A_h2h72g/p.jpeg",
+      "https://previews.dropbox.com/p/thumb/AB8kcGzGZNpFh8xtHLjBMa9Y8CeGQCC_BES-k_JpMUbSvaas1iCgIV6IYRteV87EY4zh_te11ciatVv2volWPtut88aZzEBHO808-XPOUXEtLnmZm_cxn0w4O6oeAmmY0B2VUx3UeFtGRgaJ_EPW4vVdwQx3sAkjcA7astEC43xnlw-EmgG57EUn83sUk3EPuKJMbLvqJs2KZE3M2RJbtxpf_lAvcrHU5pcRPhZ4MM8WO7WLH95HT_CtaeZSZ89WkRpeS3J5kSCmz3nMFKrwyIzkc2g1bq3WcPqRieYqyG-z1N56RLVveErE7E2ONvQ-6qlqv6tDN8VNszspK19YR19OqtBARTuLv3mP-c1HkLKdtA/p.jpeg",
+      "https://previews.dropbox.com/p/thumb/AB_i9xiET9nmnbvG3-Zn-tvRwOjPJ1Cgb-J0uDdZxZvf4vUqXthIKrhcNoSji3K4F44GyN6P85O1P42OwiRLPphw_W65LtocY7HIMTtmjLeDaW-iSxPkiBHBO4xGORHuRUbasamcJruE3FA3guA4SBEi2WkmkiaImrHAEe7dKU9StPYTFxmTjz2g4nIN8U6GwpNXKaRW_yYhH6beZYJgpKKXbqxEdS8xGgIhNDgaEp-1Jjom5wa1PDb30sltF1u-9CE_tGZ9FgbAFP0UJ3lM1w-RM3Ycx9X9piKo-8QZlcrONqCUMcd_ODJ5vtTYE5npVvtZ7jWfgIO64_MpjrSPmgOkxQ-g_F0RfYXURefZ8xrJvg/p.jpeg",
     ],
   },
   {
