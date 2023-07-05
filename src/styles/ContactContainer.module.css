@@ -13,14 +13,14 @@
 }
 
 .logo {
-  width: 100%;
+  width: 30vw;
   height: 10vh;
   display: flex;
   justify-content: center;
 }
 
 .logo-content {
-  width: 30%;
+  width: 60%;
   height: 100%;
 }
 
@@ -51,26 +51,26 @@
 
 @media (max-width: 1400px) {
   .logo {
-    width: 35%;
+    width: 40vw;
   }
 
   .logo-content {
-    width: 100%;
+    width: 60%;
   }
 }
 
 @media (max-width: 1200px) {
   .logo {
-    width: 100%;
+    width: 40vw;
   }
   .logo-content {
-    width: 45%;
+    width: 60%;
   }
 }
 
 @media (max-width: 700px) {
   .logo {
-    width: 100%;
+    width: 70vw;
   }
   .logo-content {
     width: 70%;
@@ -80,12 +80,12 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
   .logo {
-    width: 150%;
+    width: 90vw;
   }
   .logo-content {
-    width: 100%;
+    width: 80%;
   }
 
   .para {
