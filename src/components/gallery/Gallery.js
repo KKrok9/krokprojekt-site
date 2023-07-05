@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React, { Suspense, useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "../../styles/Gallery.module.css";
 import LazyLoad from "react-lazyload";
@@ -7,6 +7,11 @@ const SingleImage = React.lazy(() => import("./SingleImage"));
 
 const Gallery = (props) => {
   const projectsData = props.projectsData;
+  const [loadedImages, setLoadedImages] = useState([]);
+
+  const handleImageLoad = (index) => {
+    setLoadedImages((prevLoadedImages) => [...prevLoadedImages, index]);
+  };
 
   return (
     <div className={styles["gallery-container"]}>
@@ -21,6 +26,8 @@ const Gallery = (props) => {
                     firstImg={item.images[0]}
                     alt="item"
                     title={item.title}
+                    onLoad={() => handleImageLoad(index)}
+                    isLoaded={loadedImages.includes(index)}
                   />
                 </LazyLoad>
               </Suspense>
