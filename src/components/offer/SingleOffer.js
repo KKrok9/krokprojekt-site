@@ -1,6 +1,7 @@
+import React from "react";
 import styles from "../../styles/SingleOffer.module.css";
 
-const SingleOffer = ({ img, alt, title }) => {
+const SingleOffer = ({ img, alt, title, onClick }) => {
   return (
     <div className={styles["single-offer-container"]}>
       <div className={styles["image-container"]}>
@@ -10,4 +11,5 @@ const SingleOffer = ({ img, alt, title }) => {
     </div>
   );
 };
+
 export default SingleOffer;

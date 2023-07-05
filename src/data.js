@@ -265,43 +265,51 @@ const projectsData = [
 const iconsData = [
   {
     title: "PROJEKTY INDYWIDUALNE",
-    description: "",
+    description:
+      "Wspólnie stworzymy unikalny projekt, który spełni wszystkie Twoje wymagania i preferencje. Projekt indywidualny uwzględnia zarówno funkcjonalność, jak i estetykę, aby stworzyć spersonalizowane rozwiązanie.  Oferujemy kompleksową obsługę pełnego procesu inwestycyjnego poprzez koncepcję, projekt budowlany wraz z uzyskaniem pozwolenia na budowę, oraz projekt techniczny wraz z prowadzeniem nadzoru na budowie.",
     path: "/icons/projekty-indywidualne.png",
   },
   {
     title: "ANALIZA DZIAŁKI",
-    description: "",
+    description:
+      "Przeanalizujemy Twoją działkę budowlaną pod względem różnych czynników, które mają wpływ na Twoją przyszłą inwestycję, oraz jej potencjał pod zabudowę. Analiza działki budowlanej powinna uwzględniać wiele różnych czynników, aby ocenić jej potencjał do zabudowy i określić, jakie rodzaje budynków lub inwestycji mogą być na niej zrealizowane.",
     path: "/icons/analiza.png",
   },
   {
     title: "BUDOWNICTWO MODUŁOWE",
-    description: "",
+    description:
+      "Mamy doświadczenie w projektowanie budynków modułowych o konstrukcji stalowej lub drewnianej. Zajmujemy się adaptacją projektów gotowych oraz opracowaniem projektów indywidualnych, dostosowanych pod budownictwo modułowe.",
     path: "/icons/bud-modulowe.png",
   },
   {
     title: "BUDOWNICTWO PASYWNE",
-    description: "",
+    description:
+      "Nasz zespół posiada duże doświadczenie w projektowaniu budynków pasywnych jak i energooszczędnych. Nasze rozwiązania minimalizują zużycie energii i zasobów naturalnych, jednocześnie zapewniając komfortowe warunki dla mieszkańców. Poprzez przemyślane projektowanie przestrzeni, efektywne systemy grzewcze i chłodzące oraz umiejętny dobór i użycie energii odnawialnej, zapewnimy jak najlepsze parametry energetyczne Twojego budynku",
     path: "/icons/bud-pasywne.png",
   },
   {
     title: "CHMURA PUNKTÓW",
-    description: "",
+    description:
+      "Stworzymy precyzyjny model BIM na bazie chmury punktów. Chmury punktów mogą być wykorzystane do rekonstrukcji i modelowania trójwymiarowych obiektów. Można na ich podstawie tworzyć modele 3D, zarówno ogólne jak i szczegółowe, które odzwierciedlają rzeczywiste kształty i struktury obiektów. Dzięki inwentaryzacji za pomocą chmury punktów jesteśmy pewni dokładności oraz precyzji wykonanej inwentaryzacji, co znacznie ułatwia dalszą pracę związaną z inwentaryzowanym budynkiem. Sama chmura punktów, to trójwymiarowy model cyfrowy, który reprezentuje przestrzeń za pomocą ogromnej ilości punktów w trójwymiarowej przestrzeni. Współpracujemy z firmami zewnętrznymi wykonującymi chmury punktów na terenie całej Polski.",
     path: "/icons/chmura-punktow.png",
   },
   {
     title: "PROJEKTOWANIE BIM",
-    description: "",
+    description:
+      "Projektujemy w technologii BIM (Building Information Modeling). To metoda projektowania i zarządzania informacjami o budynku w cyfrowym środowisku. BIM wykorzystuje trójwymiarowe modele cyfrowe, które integrują dane geometryczne, informacje o materiałach, parametry techniczne, harmonogramy, koszty i inne informacje związane z projektem budynku. Dzięki temu proces projektowy jest znacznie usprawniony oraz eliminuje błędy na etapie projektowym oraz wykonawczym.",
     path: "/icons/projektowanie-bim.png",
   },
 
   {
     title: "PROJEKTY WNĘTRZ",
-    description: "",
+    description:
+      "Wspólnie zaprojektujemy indywidualne wnętrze Twojego mieszkania lub przestrzeni biurowej. Razem stworzymy spersonalizowany i unikalny projekt, który odzwierciedla Twoje preferencje oraz styl życia, przy równoczesnym zachowaniu funkcjonalności, estetyki i harmonii.",
     path: "/icons/projekty-wnetrz.png",
   },
   {
     title: "WIZUALIZACJE I ANIMACJE",
-    description: "",
+    description:
+      "Tworzymy wizualizacje i animacje architektoniczne, które w wyjątkowy sposób przedstawią zamierzenie budowlane, jak i rozwiązania urbanistyczne. Dzięki nim zaprezentujemy  ich wygląd, funkcjonalność i estetykę. Wizualizacje i animacje architektoniczne ułatwiają zrozumienie projektu przez odbiorców, jak również umożliwienie im prezentację naszych pomysłów. ",
     path: "/icons/wizualizacje-animacje.png",
   },
 ];
