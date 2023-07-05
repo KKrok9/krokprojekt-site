@@ -1,6 +1,9 @@
-import ProjectDetailsGalleryImage from "./ProjectDetailsGalleryImage";
+import React, { useState, useRef, lazy, Suspense } from "react";
 import styles from "../../styles/ProjectDetailsGallery.module.css";
-import { useState, useRef } from "react";
+
+const ProjectDetailsGalleryImage = lazy(() =>
+  import("./ProjectDetailsGalleryImage")
+);
 
 const ProjectDetailsGallery = (props) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -44,9 +47,13 @@ const ProjectDetailsGallery = (props) => {
   };
 
   return (
-    <div className={styles["container"]}>
+    <div className={styles.container}>
       {isModalOpen && (
-        <div className={styles["modal"]} onClick={closeModalHandler} ref={modalRef}>
+        <div
+          className={styles.modal}
+          onClick={closeModalHandler}
+          ref={modalRef}
+        >
           <img
             src={projectData[currentImageIndex]}
             className={styles["modal-image"]}
@@ -75,7 +82,7 @@ const ProjectDetailsGallery = (props) => {
             {projectData.map((_, index) => (
               <div
                 key={index}
-                className={`${styles["indicator"]} ${
+                className={`${styles.indicator} ${
                   index === currentImageIndex ? styles["active-indicator"] : ""
                 }`}
               ></div>
@@ -91,7 +98,9 @@ const ProjectDetailsGallery = (props) => {
             className={styles["image-div"]}
             onClick={() => openModalHandler(item, index)}
           >
-            <ProjectDetailsGalleryImage src={item} alt="item" />
+            <Suspense fallback={<div></div>}>
+              <ProjectDetailsGalleryImage src={item} alt="item" />
+            </Suspense>
           </div>
         );
       })}

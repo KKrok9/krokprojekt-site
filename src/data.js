@@ -176,8 +176,8 @@ const projectsData = [
     title: "BIUROWIEC QMODULAR W WĘGRZCACH WIELKICH",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
-      "http://drive.google.com/uc?export=view&id=1-GuYaHq661LBovgV36QvD57y_D9cTFEw",
       "http://drive.google.com/uc?export=view&id=1FLi28g2RC2expd1DctixytOjInC6IFgX",
+      "http://drive.google.com/uc?export=view&id=1-GuYaHq661LBovgV36QvD57y_D9cTFEw",
       "http://drive.google.com/uc?export=view&id=1OgtxqdVLwmGRbsy5yB4WeedgiJz4P-jR",
       "http://drive.google.com/uc?export=view&id=1RCKNVGp9EBrcyFkX831jPWLcnOeUzApy",
     ],
