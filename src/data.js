@@ -3,27 +3,32 @@ const projectsData = [
     title: "HOTEL W UŚCIU GORLICKIM",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/1.jpg",
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/2.jpg",
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/3.jpg",
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/4.jpg",
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/5.jpg",
+      "http://drive.google.com/uc?export=view&id=199nVosWkwZgyPwjJdL4VzIDE1g9-f-ES",
+      "http://drive.google.com/uc?export=view&id=105xQyORtcvQ10ad4KP4iDVNxrWPif2ZN",
+      "http://drive.google.com/uc?export=view&id=1IYXkPKEB94xsUxjk4v9ngmTjFR0MWeoh",
+      "http://drive.google.com/uc?export=view&id=1YZYO_432IvYApa09wjmwKH-bnlL3EzCR",
     ],
+
+    
+    
+    
+     
   },
   {
     title: "REZYDENCJA W TANZANII",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
-      "/strona-www/2_REZYDENCJA W TANZANII/1.jpg",
-      "/strona-www/2_REZYDENCJA W TANZANII/2.jpg",
-      "/strona-www/2_REZYDENCJA W TANZANII/3.jpg",
-      "/strona-www/2_REZYDENCJA W TANZANII/4.jpg",
-      "/strona-www/2_REZYDENCJA W TANZANII/5.jpg",
-      "/strona-www/2_REZYDENCJA W TANZANII/6.jpg",
-      "/strona-www/2_REZYDENCJA W TANZANII/7.jpg",
-      "/strona-www/2_REZYDENCJA W TANZANII/8.jpg",
-      "/strona-www/2_REZYDENCJA W TANZANII/9.jpg",
-    ],
+
+      "http://drive.google.com/uc?export=view&id=13COFz51ev94mExSHDBeQO41gZ2VZK5bY",
+      "http://drive.google.com/uc?export=view&id=11pkiz6ExWiQ-ftZJWakYkmvfuilPRpBf",
+      "http://drive.google.com/uc?export=view&id=17LObnRMQ5BJtjmJmWIVJixHpbtnpzojl ",
+      "http://drive.google.com/uc?export=view&id=19zuUlS0TomM0mDyZk_iYBVvNruz365XL ",
+      "http://drive.google.com/uc?export=view&id=1OKWIjxjwiH7NxN7B8lATYa3pByn0nSGC",
+      "http://drive.google.com/uc?export=view&id=1PVeg4oAs3eFtSFa5H4_yZfRQ1c1R_hLA ",
+      "http://drive.google.com/uc?export=view&id=1YS5Qa1u1lICAASSNvOs0YWeCmDy8R8QN",
+      "http://drive.google.com/uc?export=view&id=1k2AGZJPgw0xRaFoI6FTQH6lBPri76BTj",
+      "http://drive.google.com/uc?export=view&id=1yKDAR4DLEmeRrAfLquit-jqtusBeB5PT",
+    ]
   },
   {
     title: "HOTEL SEMIRAMIS W TANZANII",
@@ -49,6 +54,27 @@ const projectsData = [
       "/strona-www/3_HOTEL SEMIRAMIS W TANZANII/18.jpg",
       "/strona-www/3_HOTEL SEMIRAMIS W TANZANII/19.jpg",
       "/strona-www/3_HOTEL SEMIRAMIS W TANZANII/20.jpg",
+
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
     ],
   },
   {
@@ -64,6 +90,17 @@ const projectsData = [
       "/strona-www/4_BUDYNEK WIELORODZINNY W KRAKOWIE NA ULICY KOBIERZYŃSKIEJ/7.jpg",
       "/strona-www/4_BUDYNEK WIELORODZINNY W KRAKOWIE NA ULICY KOBIERZYŃSKIEJ/8.jpg",
       "/strona-www/4_BUDYNEK WIELORODZINNY W KRAKOWIE NA ULICY KOBIERZYŃSKIEJ/9.jpg",
+
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
     ],
   },
   {
@@ -75,6 +112,13 @@ const projectsData = [
       "/strona-www/5_KONCEPCJA PAWILONU WEJŚCIOWEGO W PARKU MINIATUR W ZABIERZOWIE/3.jpg",
       "/strona-www/5_KONCEPCJA PAWILONU WEJŚCIOWEGO W PARKU MINIATUR W ZABIERZOWIE/4.jpg",
       "/strona-www/5_KONCEPCJA PAWILONU WEJŚCIOWEGO W PARKU MINIATUR W ZABIERZOWIE/5.jpg",
+
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
     ],
   },
   {
@@ -84,6 +128,11 @@ const projectsData = [
       "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/1.jpg",
       "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/2.jpg",
       "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/3.jpg",
+
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
     ],
   },
   {
@@ -95,6 +144,13 @@ const projectsData = [
       "/strona-www/8_MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI/3.jpg",
       "/strona-www/8_MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI/4.jpg",
       "/strona-www/8_MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI/5.jpg",
+
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
     ],
   },
 
@@ -105,6 +161,12 @@ const projectsData = [
       "/strona-www/9_KIOSKI HANDLOWE ORAZ GASTRONOMICZNE W BERLINIE/1.jpg",
       "/strona-www/9_KIOSKI HANDLOWE ORAZ GASTRONOMICZNE W BERLINIE/2.jpg",
       "/strona-www/9_KIOSKI HANDLOWE ORAZ GASTRONOMICZNE W BERLINIE/3.jpg",
+
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+
     ],
   },
   {
@@ -117,6 +179,13 @@ const projectsData = [
       "/strona-www/10_ZESPÓŁ BUDYNKÓW WIELORODZINNYCH W KONINIE ŻEGAŃSKIM/4.jpg",
       "/strona-www/10_ZESPÓŁ BUDYNKÓW WIELORODZINNYCH W KONINIE ŻEGAŃSKIM/5.jpg",
       "/strona-www/10_ZESPÓŁ BUDYNKÓW WIELORODZINNYCH W KONINIE ŻEGAŃSKIM/6.jpg",
+
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
     ],
   },
   {
@@ -139,6 +208,23 @@ const projectsData = [
       "/strona-www/11_MODULARCITY - KONCEPCJA HOTELI MODUŁOWYCH/14.jpg",
       "/strona-www/11_MODULARCITY - KONCEPCJA HOTELI MODUŁOWYCH/15.jpg",
       "/strona-www/11_MODULARCITY - KONCEPCJA HOTELI MODUŁOWYCH/16.jpg",
+      
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
     ],
   },
   {
@@ -148,6 +234,11 @@ const projectsData = [
       "/strona-www/12_KONCEPCJA BUDYNKU BIUROWEGO PZU W ŁODZI/1.jpg",
       "/strona-www/12_KONCEPCJA BUDYNKU BIUROWEGO PZU W ŁODZI/2.jpg",
       "/strona-www/12_KONCEPCJA BUDYNKU BIUROWEGO PZU W ŁODZI/3.jpg",
+
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
     ],
   },
   {
@@ -159,6 +250,13 @@ const projectsData = [
       "/strona-www/13_KONCEPCJA PAWILONU GASTRONOMICZNEGO W RUDAWIE/3.jpg",
       "/strona-www/13_KONCEPCJA PAWILONU GASTRONOMICZNEGO W RUDAWIE/4.jpg",
       "/strona-www/13_KONCEPCJA PAWILONU GASTRONOMICZNEGO W RUDAWIE/5.jpg",
+
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
     ],
   },
   {
@@ -170,6 +268,13 @@ const projectsData = [
       "/strona-www/14_KONCEPCJA HOTELI NA WODZIE W ROŻOWIE/3.jpg",
       "/strona-www/14_KONCEPCJA HOTELI NA WODZIE W ROŻOWIE/4.jpg",
       "/strona-www/14_KONCEPCJA HOTELI NA WODZIE W ROŻOWIE/5.jpg",
+
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
     ],
   },
 
@@ -184,6 +289,15 @@ const projectsData = [
       "/strona-www/DOM JEDNORODZINNY - 23L1/5.jpg",
       "/strona-www/DOM JEDNORODZINNY - 23L1/6.jpg",
       "/strona-www/DOM JEDNORODZINNY - 23L1/7.jpg",
+      
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
     ],
   },
   {
@@ -200,6 +314,17 @@ const projectsData = [
       "/strona-www/DOM JEDNORODZINNY - 23L2/8.jpg",
       "/strona-www/DOM JEDNORODZINNY - 23L2/9.jpg",
       "/strona-www/DOM JEDNORODZINNY - 23L2/10.jpg",
+
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
     ],
   },
   {
@@ -212,6 +337,13 @@ const projectsData = [
       "/strona-www/DOM JEDNORODZINNY - 23P1/4.jpg",
       "/strona-www/DOM JEDNORODZINNY - 23P1/5.jpg",
       "/strona-www/DOM JEDNORODZINNY - 23P1/6.jpg",
+
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
     ],
   },
   {
@@ -224,6 +356,13 @@ const projectsData = [
       "/strona-www/DOM JEDNORODZINNY - 23P2/4.jpg",
       "/strona-www/DOM JEDNORODZINNY - 23P2/4.jpg",
       "/strona-www/DOM JEDNORODZINNY - 23P2/6.jpg",
+
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
     ],
   },
   {
@@ -236,6 +375,13 @@ const projectsData = [
       "/strona-www/DOM JEDNORODZINNY - 23X1/4.jpg",
       "/strona-www/DOM JEDNORODZINNY - 23X1/5.jpg",
       "/strona-www/DOM JEDNORODZINNY - 23X1/6.jpg",
+
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
     ],
   },
   {
@@ -248,6 +394,13 @@ const projectsData = [
       "/strona-www/DOM JEDNORODZINNY - 23Z1/4.jpg",
       "/strona-www/DOM JEDNORODZINNY - 23Z1/5.jpg",
       "/strona-www/DOM JEDNORODZINNY - 23Z1/6.jpg",
+      
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
     ],
   },
   {
@@ -258,6 +411,11 @@ const projectsData = [
       "/strona-www/DOM JEDNORODZINNY - 23Z2/2.jpg",
       "/strona-www/DOM JEDNORODZINNY - 23Z2/3.jpg",
       "/strona-www/DOM JEDNORODZINNY - 23Z2/4.jpg",
+
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
+      "http://drive.google.com/uc?export=view&id=",
     ],
   },
 ];
