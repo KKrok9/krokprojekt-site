@@ -1,63 +1,96 @@
 .container {
-  width: 90%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: auto;
-}
-
-.header{
-  margin-top: auto;
-}
-
-
-.logo {
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  margin-bottom: 10%;
+}
+
+.header {
+  width: 100%;
+  height: 5vh;
+}
+
+.logo {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-content {
+  width: 30%;
+  height: 100%;
 }
 
 .owner {
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.para{
+.para {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
-
+  width: 100%;
+  height: 5vh;
+  font-size: 18px;
+  border: solid 1px;
 }
 .phone {
-  width: 50%;
+  width: 100%;
 }
 .email {
-  width: 50%;
+  width: 100%;
 }
 .linkedin {
-  width: 50%;
+  width: 100%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1400px) {
   .logo {
-    width:70%;
+    width: 35%;
   }
-  p {
-    font-size: 12px;
+
+  .logo-content {
+    width: 100%;
   }
 }
-
 
 @media (max-width: 1300px) {
   .logo {
-    width:60%;
+    width: 100%;
   }
-  p {
-    font-size: 12px;
+  .logo-content {
+    width: 45%;
+  }
+  
+}
+
+
+
+@media (max-width: 700px) {
+  .logo {
+    width: 100%;
+  }
+  .logo-content {
+    width: 70%;
+  }
+ .para{
+  font-size: 12px;
+ }
+}
+
+@media (max-width: 500px) {
+  .logo {
+    width: 150%;
+  }
+  .logo-content {
+    width: 100%;
   }
 }
+
+
