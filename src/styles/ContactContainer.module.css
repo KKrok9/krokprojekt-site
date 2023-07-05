@@ -59,7 +59,7 @@
   }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1200px) {
   .logo {
     width: 100%;
   }
@@ -86,5 +86,9 @@
   }
   .logo-content {
     width: 100%;
+  }
+
+  .para {
+    letter-spacing: 0.2px;
   }
 }

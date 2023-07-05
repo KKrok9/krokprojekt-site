@@ -98,23 +98,16 @@ a {
   z-index: 1;
 }
 
-
-@media (max-width: 1400px){
-
-  .navbar-elements{
-    width: 50%;
+@media (max-width: 1400px) {
+  .navbar-elements {
+    width: 40%;
   }
 }
 
-@media (max-width: 1200px){
-
+@media (max-width: 1200px) {
   .logo-content {
     height: 100%;
     width: 100%;
-  }
-
-  .navbar-elements{
-    width: 40%;
   }
 }
 
@@ -156,7 +149,7 @@ a {
   }
 
   .logo {
-    width: 80%;
+    width: 40%;
     height: 100%;
   }
 
@@ -164,6 +157,14 @@ a {
     width: 100%;
   }
 
+  @media (max-width: 500px) {
+    .logo {
+      width: 90%;
+    }
+    .logo-content {
+      width: 90%;
+    }
+  }
   @keyframes fade-in {
     0% {
       opacity: 0;
