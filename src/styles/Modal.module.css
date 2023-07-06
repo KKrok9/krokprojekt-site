@@ -13,10 +13,11 @@
 }
 
 .modal-container {
-  width: 40%;
+  width: 25%;
   height: 40%;
   background-color: white;
   border-radius: 12px;
+  padding: 1%;
 }
 
 .modal-header {
@@ -26,8 +27,36 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  margin: 2%;
 }
+.modal-content {
+  border-radius: 4px;
+  display: flex;
+  height: 60%;
+  width: 100%;
+}
+.modal-para {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  
+}
+.modal-content-para {
+  width: 90%;
+  height: 95%;
+  letter-spacing: 0px;
+  font-size: 18px;
+  overflow: auto;
+  margin-left: 5%;
+  text-align: left;
+}
+
+
 .image-container {
   width: 30%;
   height: 100%;
@@ -50,37 +79,10 @@
 .modal-image {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 12px;
 }
-.modal-para {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 22px;
-  font-weight: bold;
-  letter-spacing: 0px;
-}
 
-.modal-content {
-  background-color: #fff;
-  border-radius: 4px;
-  display: flex;
-  height: 75%;
-  width: 100%;
-}
-
-.modal-content-para {
-  width: 100%;
-  height: 100%;
-  letter-spacing: 0px;
-  font-size: 18px;
-  display: flex;
-  overflow: auto;
-  margin: 2%; /* Dodane */
-  text-align: left;
-}
 
 .modal-close-button {
   background-color: transparent;
@@ -97,36 +99,36 @@
 
 @media (max-width: 1300px) {
   .modal-container {
-    width: 40%;
-    height: 50%;
+    width: 30%;
+    height: 40%;
   }
 }
 
 @media (max-width: 1200px) {
   .modal-container {
-    width: 55%;
-    height: 60%;
+    width: 45%;
+    height: 45%;
+  }
+  .image-container {
+    width: 40%;
+    height: 100%;
   }
 }
 
 @media (max-width: 700px) {
   .modal-container {
-    width: 70%;
-    height: 60%;
+    width: 80%;
+    height: 50%;
   }
- 
+  .image-container {
+    width: 45%;
+    height: 100%;
+  }
 }
-
-
-
 
 @media (max-width: 550px) {
   .modal-container {
-    width: 85%;
+    width: 80%;
     height: 60%;
   }
 }
-
-
-
-
