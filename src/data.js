@@ -6,7 +6,6 @@ const projectsData = [
       "/strona-www/1_HOTEL W UŚCIU GORLICKIM/1.jpg",
       "/strona-www/1_HOTEL W UŚCIU GORLICKIM/2.jpg",
       "/strona-www/1_HOTEL W UŚCIU GORLICKIM/3.jpg",
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/4.jpg",
       "/strona-www/1_HOTEL W UŚCIU GORLICKIM/5.jpg",
     ],
   },
