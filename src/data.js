@@ -1,13 +1,31 @@
 const projectsData = [
   {
-    title: "HOTEL W UŚCIU GORLICKIM",
+    title: "DOM JEDNORODZINNY - 23P1",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/0.jpg",
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/1.jpg",
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/2.jpg",
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/3.jpg",
-      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/5.jpg",
+      "/strona-www/DOM JEDNORODZINNY - 23P1/0.jpg",
+      "/strona-www/DOM JEDNORODZINNY - 23P1/1.jpg",
+      "/strona-www/DOM JEDNORODZINNY - 23P1/2.jpg",
+      "/strona-www/DOM JEDNORODZINNY - 23P1/3.jpg",
+      "/strona-www/DOM JEDNORODZINNY - 23P1/4.jpg",
+      "/strona-www/DOM JEDNORODZINNY - 23P1/5.jpg",
+      "/strona-www/DOM JEDNORODZINNY - 23P1/6.jpg",
+    ],
+  },
+  {
+    title: "DOM JEDNORODZINNY W BIAŁEJ RAWSKIEJ",
+    content: "Jest to projekt hotelu w uściu gorlickim",
+    images: [
+      "/strona-www/16_DOM JEDNORODZINNY W BIALEJ RAWSKIEJ/0.jpg",
+      "/strona-www/16_DOM JEDNORODZINNY W BIALEJ RAWSKIEJ/1.jpg",
+      "/strona-www/16_DOM JEDNORODZINNY W BIALEJ RAWSKIEJ/2.jpg",
+      "/strona-www/16_DOM JEDNORODZINNY W BIALEJ RAWSKIEJ/3.jpg",
+      "/strona-www/16_DOM JEDNORODZINNY W BIALEJ RAWSKIEJ/4.jpg",
+      "/strona-www/16_DOM JEDNORODZINNY W BIALEJ RAWSKIEJ/5.jpg",
+      "/strona-www/16_DOM JEDNORODZINNY W BIALEJ RAWSKIEJ/6.jpg",
+      "/strona-www/16_DOM JEDNORODZINNY W BIALEJ RAWSKIEJ/7.jpg",
+      "/strona-www/16_DOM JEDNORODZINNY W BIALEJ RAWSKIEJ/8.jpg",
+      "/strona-www/16_DOM JEDNORODZINNY W BIALEJ RAWSKIEJ/9.jpg",
     ],
   },
   {
@@ -24,6 +42,45 @@ const projectsData = [
       "/strona-www/2_REZYDENCJA W TANZANII/7.jpg",
       "/strona-www/2_REZYDENCJA W TANZANII/8.jpg",
       "/strona-www/2_REZYDENCJA W TANZANII/9.jpg",
+    ],
+  },
+  {
+    title: "KONCEPCJA PAWILONU WEJŚCIOWEGO W PARKU MINIATUR W ZABIERZOWIE",
+    content: "Jest to projekt hotelu w uściu gorlickim",
+    images: [
+      "/strona-www/5_KONCEPCJA PAWILONU WEJŚCIOWEGO W PARKU MINIATUR W ZABIERZOWIE/0.jpg",
+      "/strona-www/5_KONCEPCJA PAWILONU WEJŚCIOWEGO W PARKU MINIATUR W ZABIERZOWIE/1.jpg",
+      "/strona-www/5_KONCEPCJA PAWILONU WEJŚCIOWEGO W PARKU MINIATUR W ZABIERZOWIE/2.jpg",
+      "/strona-www/5_KONCEPCJA PAWILONU WEJŚCIOWEGO W PARKU MINIATUR W ZABIERZOWIE/3.jpg",
+      "/strona-www/5_KONCEPCJA PAWILONU WEJŚCIOWEGO W PARKU MINIATUR W ZABIERZOWIE/4.jpg",
+      "/strona-www/5_KONCEPCJA PAWILONU WEJŚCIOWEGO W PARKU MINIATUR W ZABIERZOWIE/5.jpg",
+    ],
+  },
+  {
+    title: "KONCEPCJA BUDYNKU BIUROWEGO PZU W ŁODZI",
+    content: "Jest to projekt hotelu w uściu gorlickim",
+    images: [
+      "/strona-www/12_KONCEPCJA BUDYNKU BIUROWEGO PZU W ŁODZI/0.jpg",
+      "/strona-www/12_KONCEPCJA BUDYNKU BIUROWEGO PZU W ŁODZI/1.jpg",
+      "/strona-www/12_KONCEPCJA BUDYNKU BIUROWEGO PZU W ŁODZI/2.jpg",
+      "/strona-www/12_KONCEPCJA BUDYNKU BIUROWEGO PZU W ŁODZI/3.jpg",
+    ],
+  },
+  {
+    title: "DOM JEDNORODZINNY - 23L2",
+    content: "Jest to projekt hotelu w uściu gorlickim",
+    images: [
+      "/strona-www/DOM JEDNORODZINNY - 23L2/0.jpg",
+      "/strona-www/DOM JEDNORODZINNY - 23L2/1.jpg",
+      "/strona-www/DOM JEDNORODZINNY - 23L2/2.jpg",
+      "/strona-www/DOM JEDNORODZINNY - 23L2/3.jpg",
+      "/strona-www/DOM JEDNORODZINNY - 23L2/4.jpg",
+      "/strona-www/DOM JEDNORODZINNY - 23L2/5.jpg",
+      "/strona-www/DOM JEDNORODZINNY - 23L2/6.jpg",
+      "/strona-www/DOM JEDNORODZINNY - 23L2/7.jpg",
+      "/strona-www/DOM JEDNORODZINNY - 23L2/8.jpg",
+      "/strona-www/DOM JEDNORODZINNY - 23L2/9.jpg",
+      "/strona-www/DOM JEDNORODZINNY - 23L2/10.jpg",
     ],
   },
   {
@@ -54,6 +111,28 @@ const projectsData = [
     ],
   },
   {
+    title: "BIUROWIEC QMODULAR W WĘGRZCACH WIELKICH",
+    content: "Jest to projekt hotelu w uściu gorlickim",
+    images: [
+      "/strona-www/15_BIUROWIEC QMODULAR W WĘGRZCACH WIELKICH/2.jpg",
+      "/strona-www/15_BIUROWIEC QMODULAR W WĘGRZCACH WIELKICH/2.jpg",
+      "/strona-www/15_BIUROWIEC QMODULAR W WĘGRZCACH WIELKICH/1.jpg",
+      "/strona-www/15_BIUROWIEC QMODULAR W WĘGRZCACH WIELKICH/3.jpg",
+      "/strona-www/15_BIUROWIEC QMODULAR W WĘGRZCACH WIELKICH/4.jpg",
+    ],
+  },
+  {
+    title: "HOTEL W UŚCIU GORLICKIM",
+    content: "Jest to projekt hotelu w uściu gorlickim",
+    images: [
+      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/0.jpg",
+      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/1.jpg",
+      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/2.jpg",
+      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/3.jpg",
+      "/strona-www/1_HOTEL W UŚCIU GORLICKIM/5.jpg",
+    ],
+  },
+  {
     title: "BUDYNEK WIELORODZINNY W KRAKOWIE NA UL. KOBIERZYŃSKIEJ",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
@@ -70,51 +149,6 @@ const projectsData = [
     ],
   },
   {
-    title: "KONCEPCJA PAWILONU WEJŚCIOWEGO W PARKU MINIATUR W ZABIERZOWIE",
-    content: "Jest to projekt hotelu w uściu gorlickim",
-    images: [
-      "/strona-www/5_KONCEPCJA PAWILONU WEJŚCIOWEGO W PARKU MINIATUR W ZABIERZOWIE/0.jpg",
-      "/strona-www/5_KONCEPCJA PAWILONU WEJŚCIOWEGO W PARKU MINIATUR W ZABIERZOWIE/1.jpg",
-      "/strona-www/5_KONCEPCJA PAWILONU WEJŚCIOWEGO W PARKU MINIATUR W ZABIERZOWIE/2.jpg",
-      "/strona-www/5_KONCEPCJA PAWILONU WEJŚCIOWEGO W PARKU MINIATUR W ZABIERZOWIE/3.jpg",
-      "/strona-www/5_KONCEPCJA PAWILONU WEJŚCIOWEGO W PARKU MINIATUR W ZABIERZOWIE/4.jpg",
-      "/strona-www/5_KONCEPCJA PAWILONU WEJŚCIOWEGO W PARKU MINIATUR W ZABIERZOWIE/5.jpg",
-    ],
-  },
-  {
-    title: "BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE",
-    content: "Jest to projekt hotelu w uściu gorlickim",
-    images: [
-      "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/0.jpg",
-      "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/1.jpg",
-      "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/2.jpg",
-      "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/3.jpg",
-    ],
-  },
-  {
-    title: "MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI",
-    content: "Jest to projekt hotelu w uściu gorlickim",
-    images: [
-      "/strona-www/8_MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI/0.jpg",
-      "/strona-www/8_MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI/1.jpg",
-      "/strona-www/8_MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI/2.jpg",
-      "/strona-www/8_MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI/3.jpg",
-      "/strona-www/8_MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI/4.jpg",
-      "/strona-www/8_MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI/5.jpg",
-    ],
-  },
-
-  {
-    title: "KIOSKI HANDLOWE ORAZ GASTRONOMICZNE W BERLINIE",
-    content: "Jest to projekt hotelu w uściu gorlickim",
-    images: [
-      "/strona-www/9_KIOSKI HANDLOWE ORAZ GASTRONOMICZNE W BERLINIE/0.jpg",
-      "/strona-www/9_KIOSKI HANDLOWE ORAZ GASTRONOMICZNE W BERLINIE/1.jpg",
-      "/strona-www/9_KIOSKI HANDLOWE ORAZ GASTRONOMICZNE W BERLINIE/2.jpg",
-      "/strona-www/9_KIOSKI HANDLOWE ORAZ GASTRONOMICZNE W BERLINIE/3.jpg",
-    ],
-  },
-  {
     title: "ZESPÓŁ BUDYNKÓW WIELORODZINNYCH W KONINIE ŻEGAŃSKIM",
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
@@ -125,6 +159,17 @@ const projectsData = [
       "/strona-www/10_ZESPÓŁ BUDYNKÓW WIELORODZINNYCH W KONINIE ŻEGAŃSKIM/4.jpg",
       "/strona-www/10_ZESPÓŁ BUDYNKÓW WIELORODZINNYCH W KONINIE ŻEGAŃSKIM/5.jpg",
       "/strona-www/10_ZESPÓŁ BUDYNKÓW WIELORODZINNYCH W KONINIE ŻEGAŃSKIM/6.jpg",
+    ],
+  },
+
+  {
+    title: "BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE",
+    content: "Jest to projekt hotelu w uściu gorlickim",
+    images: [
+      "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/0.jpg",
+      "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/1.jpg",
+      "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/2.jpg",
+      "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/3.jpg",
     ],
   },
   {
@@ -150,16 +195,7 @@ const projectsData = [
       "/strona-www/11_MODULARCITY - KONCEPCJA HOTELI MODUŁOWYCH/16.jpg",
     ],
   },
-  {
-    title: "KONCEPCJA BUDYNKU BIUROWEGO PZU W ŁODZI",
-    content: "Jest to projekt hotelu w uściu gorlickim",
-    images: [
-      "/strona-www/12_KONCEPCJA BUDYNKU BIUROWEGO PZU W ŁODZI/0.jpg",
-      "/strona-www/12_KONCEPCJA BUDYNKU BIUROWEGO PZU W ŁODZI/1.jpg",
-      "/strona-www/12_KONCEPCJA BUDYNKU BIUROWEGO PZU W ŁODZI/2.jpg",
-      "/strona-www/12_KONCEPCJA BUDYNKU BIUROWEGO PZU W ŁODZI/3.jpg",
-    ],
-  },
+
   {
     title: "KONCEPCJA PAWILONU GASTRONOMICZNEGO W RUDAWIE",
     content: "Jest to projekt hotelu w uściu gorlickim",
@@ -172,6 +208,31 @@ const projectsData = [
       "/strona-www/13_KONCEPCJA PAWILONU GASTRONOMICZNEGO W RUDAWIE/5.jpg",
     ],
   },
+
+  {
+    title: "MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI",
+    content: "Jest to projekt hotelu w uściu gorlickim",
+    images: [
+      "/strona-www/8_MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI/0.jpg",
+      "/strona-www/8_MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI/1.jpg",
+      "/strona-www/8_MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI/2.jpg",
+      "/strona-www/8_MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI/3.jpg",
+      "/strona-www/8_MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI/4.jpg",
+      "/strona-www/8_MODUŁOWY BUDYNEK LETNISKOWY W CHORWACJI/5.jpg",
+    ],
+  },
+
+  {
+    title: "KIOSKI HANDLOWE ORAZ GASTRONOMICZNE W BERLINIE",
+    content: "Jest to projekt hotelu w uściu gorlickim",
+    images: [
+      "/strona-www/9_KIOSKI HANDLOWE ORAZ GASTRONOMICZNE W BERLINIE/0.jpg",
+      "/strona-www/9_KIOSKI HANDLOWE ORAZ GASTRONOMICZNE W BERLINIE/1.jpg",
+      "/strona-www/9_KIOSKI HANDLOWE ORAZ GASTRONOMICZNE W BERLINIE/2.jpg",
+      "/strona-www/9_KIOSKI HANDLOWE ORAZ GASTRONOMICZNE W BERLINIE/3.jpg",
+    ],
+  },
+
   {
     title: "KONCEPCJA HOTELI NA WODZIE W ROŻOWIE",
     content: "Jest to projekt hotelu w uściu gorlickim",
@@ -199,36 +260,7 @@ const projectsData = [
       "/strona-www/DOM JEDNORODZINNY - 23L1/7.jpg",
     ],
   },
-  {
-    title: "DOM JEDNORODZINNY - 23L2",
-    content: "Jest to projekt hotelu w uściu gorlickim",
-    images: [
-      "/strona-www/DOM JEDNORODZINNY - 23L2/0.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23L2/1.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23L2/2.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23L2/3.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23L2/4.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23L2/5.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23L2/6.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23L2/7.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23L2/8.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23L2/9.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23L2/10.jpg",
-    ],
-  },
-  {
-    title: "DOM JEDNORODZINNY - 23P1",
-    content: "Jest to projekt hotelu w uściu gorlickim",
-    images: [
-      "/strona-www/DOM JEDNORODZINNY - 23P1/0.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23P1/1.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23P1/2.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23P1/3.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23P1/4.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23P1/5.jpg",
-      "/strona-www/DOM JEDNORODZINNY - 23P1/6.jpg",
-    ],
-  },
+
   {
     title: "DOM JEDNORODZINNY - 23P2",
     content: "Jest to projekt hotelu w uściu gorlickim",
