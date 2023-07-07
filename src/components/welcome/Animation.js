@@ -54,7 +54,8 @@ const Animation = () => {
         className={styles.animationPlayer}
         ref={videoRef}
       >
-        Twoja przeglądarka nie obsługuje odtwarzania wideo.
+        <source src="/bad-quality.mp4" type="video/mp4" />
+        <img src="../../public/2_REZYDENCJA W TANZANII/1.jpg" alt="photo" />
       </video>
     </div>
   );
