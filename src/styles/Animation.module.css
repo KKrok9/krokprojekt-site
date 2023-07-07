@@ -70,12 +70,23 @@
 .animationPlayer::-ms-fill-upper {
   background-color: transparent; /* Ukrywanie wypełnienia paska przesuwania momentu w przeglądarkach opartych na silniku Edge/IE */
 }
+.animationPlayer::-webkit-media-controls-start-playback-button {
+  display: none; /* Ukrywanie przycisku odtwarzania w przeglądarkach opartych na silniku WebKit */
+}
+
+.animationPlayer::-moz-media-controls-play-button {
+  display: none; /* Ukrywanie przycisku odtwarzania w przeglądarkach opartych na silniku Gecko (np. Firefox) */
+}
+
+.animationPlayer::-ms-media-controls-start {
+  display: none; /* Ukrywanie przycisku odtwarzania w przeglądarkach opartych na silniku Edge/IE */
+}
 
 @media (max-width: 1400px) {
   .imageContainer {
     width: 50%;
   }
-  .animationWrapper{
+  .animationWrapper {
     align-items: center;
   }
 }

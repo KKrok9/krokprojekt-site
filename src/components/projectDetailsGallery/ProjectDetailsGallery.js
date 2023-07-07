@@ -32,7 +32,9 @@ const ProjectDetailsGallery = (props) => {
     }
   };
 
-  const projectData = Object.values(props.src.images);
+  const fullProjectData = props.src.images; // Usuń Object.values(), jeśli props.src.images już jest tablicą obiektów
+  const projectData = [...fullProjectData];
+  projectData.splice(0, 1);
 
   const goToPreviousImage = () => {
     if (currentImageIndex > 0) {
