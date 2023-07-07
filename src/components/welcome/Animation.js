@@ -1,40 +1,48 @@
-import React, { useLayoutEffect, useRef } from "react";
+import React, { useCallback, useEffect, useRef } from "react";
 import styles from "../../styles/Animation.module.css";
 
 const Animation = () => {
   const videoRef = useRef(null);
   const animationWrapperRef = useRef(null);
 
-  useLayoutEffect(() => {
+  const handleResize = useCallback(() => {
     const video = videoRef.current;
     const animationWrapper = animationWrapperRef.current;
 
-    const handleResize = () => {
-      const { offsetWidth, offsetHeight } = animationWrapper;
-      const { videoWidth, videoHeight } = video;
+    const { offsetWidth, offsetHeight } = animationWrapper;
+    const { videoWidth, videoHeight } = video;
 
-      const scale = Math.max(
-        offsetWidth / videoWidth,
-        offsetHeight / videoHeight
-      );
-      const scaledWidth = videoWidth * scale;
-      const scaledHeight = videoHeight * scale;
+    const scale = Math.max(
+      offsetWidth / videoWidth,
+      offsetHeight / videoHeight
+    );
+    const scaledWidth = videoWidth * scale;
+    const scaledHeight = videoHeight * scale;
 
-      video.style.width = scaledWidth + "px";
-      video.style.height = scaledHeight + "px";
-      video.style.left = (offsetWidth - scaledWidth) / 2 + "px";
-      video.style.top = (offsetHeight - scaledHeight) / 2 + "px";
+    video.style.width = scaledWidth + "px";
+    video.style.height = scaledHeight + "px";
+    video.style.left = (offsetWidth - scaledWidth) / 2 + "px";
+    video.style.top = (offsetHeight - scaledHeight) / 2 + "px";
+  }, []);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    const animationWrapper = animationWrapperRef.current;
+
+    const handleLoadedMetadata = () => {
+      handleResize();
     };
 
-    handleResize();
+    video.addEventListener("loadedmetadata", handleLoadedMetadata);
 
     const observer = new ResizeObserver(handleResize);
     observer.observe(animationWrapper);
 
     return () => {
+      video.removeEventListener("loadedmetadata", handleLoadedMetadata);
       observer.unobserve(animationWrapper);
     };
-  }, []);
+  }, [handleResize]);
 
   return (
     <div className={styles.animationWrapper} ref={animationWrapperRef}>
@@ -42,7 +50,7 @@ const Animation = () => {
         autoPlay
         muted
         loop
-        preload
+        preload="metadata"
         className={styles.animationPlayer}
         ref={videoRef}
       >
