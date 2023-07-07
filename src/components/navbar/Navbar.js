@@ -47,7 +47,7 @@ const Navbar = () => {
               isNavbarOpen && styles["active"]
             }`}
           >
-            <a href="/projects">STRONA GŁÓWNA</a>
+            <a href="/">STRONA GŁÓWNA</a>
           </li>
           <li
             className={`${styles["navbar-element"]} ${
