@@ -54,7 +54,6 @@ const Animation = () => {
         className={styles.animationPlayer}
         ref={videoRef}
       >
-        <source src="/background-animation-1.mp4" type="video/mp4" />
         Twoja przeglądarka nie obsługuje odtwarzania wideo.
       </video>
     </div>
