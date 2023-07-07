@@ -156,12 +156,11 @@ a {
     align-items: center;
   }
 
-
   @media (max-width: 400px) {
     .logo {
-      width:90%;
+      width: 90%;
     }
-  
+
     .logo-content {
       width: 80%;
     }

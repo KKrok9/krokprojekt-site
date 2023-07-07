@@ -1,0 +1,56 @@
+.animationWrapper {
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animationPlayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: auto;
+  pointer-events: none; /* Wyłączenie interakcji */
+  
+}
+
+/* Pozostałe style dla ukrywania kontrolek odtwarzacza */
+.animationPlayer::-webkit-media-controls,
+.animationPlayer::-webkit-media-controls-enclosure,
+.animationPlayer::-webkit-media-controls-panel,
+.animationPlayer::-webkit-media-controls-overlay-play-button {
+  display: none; /* Ukrywanie kontrolki odtwarzacza w przeglądarkach opartych na silniku WebKit */
+}
+
+.animationPlayer::-webkit-media-controls-timeline {
+  display: none; /* Ukrywanie paska przesuwania momentu w przeglądarkach opartych na silniku WebKit */
+}
+
+.animationPlayer::-moz-range-progress {
+  background-color: transparent; /* Ukrywanie paska przesuwania momentu w przeglądarkach opartych na silniku Gecko (np. Firefox) */
+}
+
+.animationPlayer::-moz-range-thumb {
+  pointer-events: none; /* Wyłączenie interakcji z kciukiem przesuwania w przeglądarkach opartych na silniku Gecko (np. Firefox) */
+}
+
+.animationPlayer::-ms-progress-bar {
+  display: none; /* Ukrywanie paska przesuwania momentu w przeglądarkach opartych na silniku Edge/IE */
+}
+
+.animationPlayer::-ms-thumb {
+  pointer-events: none; /* Wyłączenie interakcji z kciukiem przesuwania w przeglądarkach opartych na silniku Edge/IE */
+}
+
+.animationPlayer::-ms-tooltip {
+  display: none; /* Ukrywanie etykiety przesuwania momentu w przeglądarkach opartych na silniku Edge/IE */
+}
+
+.animationPlayer::-ms-fill-lower,
+.animationPlayer::-ms-fill-upper {
+  background-color: transparent; /* Ukrywanie wypełnienia paska przesuwania momentu w przeglądarkach opartych na silniku Edge/IE */
+}
