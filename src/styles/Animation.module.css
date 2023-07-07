@@ -13,7 +13,9 @@
   pointer-events: none; /* Wyłączenie interakcji */
   width: 100%;
   height: 100%;
-  filter:  grayscale(50%) brightness(50%) contrast(60%);
+  filter: grayscale(50%) brightness(60%);
+  image-rendering: auto;
+  image-rendering: crisp-edges; /* Ustawienie wygładzania obrazu na minimalne */
 }
 
 /* Pozostałe style dla ukrywania kontrolek odtwarzacza */
