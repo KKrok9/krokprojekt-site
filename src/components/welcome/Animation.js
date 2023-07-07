@@ -50,7 +50,7 @@ const Animation = () => {
         autoPlay
         muted
         loop
-        preload="metadata"
+        preload="auto"
         className={styles.animationPlayer}
         ref={videoRef}
       >
