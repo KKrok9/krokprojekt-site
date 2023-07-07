@@ -54,7 +54,7 @@ const Animation = () => {
         className={styles.animationPlayer}
         ref={videoRef}
       >
-        <source src="/animations/13-lower.mp4" type="video/mp4" />
+        <source src="/animations/28-lower.mp4" type="video/mp4" />
         <img src="../../public/2_REZYDENCJA W TANZANII/1.jpg" />
       </video>
     </div>
