@@ -13,7 +13,7 @@
   pointer-events: none; /* Wyłączenie interakcji */
   width: 100%;
   height: 100%;
-  filter:blur(8px);
+  filter:blur(10px);
 }
 
 /* Pozostałe style dla ukrywania kontrolek odtwarzacza */
