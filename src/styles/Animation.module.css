@@ -3,7 +3,9 @@
   overflow: hidden;
   min-width: 100vw;
   min-height: 100vh;
-  border: solid 1px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .animationPlayer {
@@ -13,9 +15,23 @@
   pointer-events: none; /* Wyłączenie interakcji */
   width: 100%;
   height: 100%;
-  filter: grayscale(50%) brightness(60%);
-  image-rendering: auto;
+  filter: grayscale(20%) brightness(50%);
   image-rendering: crisp-edges; /* Ustawienie wygładzania obrazu na minimalne */
+}
+
+.centeredLogo {
+  position: absolute;
+  width: 70%;
+  height: 50%;
+}
+.imageContainer {
+  position: absolute;
+  width: 40%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
 }
 
 /* Pozostałe style dla ukrywania kontrolek odtwarzacza */
@@ -53,4 +69,26 @@
 .animationPlayer::-ms-fill-lower,
 .animationPlayer::-ms-fill-upper {
   background-color: transparent; /* Ukrywanie wypełnienia paska przesuwania momentu w przeglądarkach opartych na silniku Edge/IE */
+}
+
+@media (max-width: 1400px) {
+  .imageContainer {
+    width: 50%;
+  }
+  .animationWrapper{
+    align-items: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .imageContainer {
+    width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+  .imageContainer {
+    width: 100%;
+    height: 20%;
+  }
 }

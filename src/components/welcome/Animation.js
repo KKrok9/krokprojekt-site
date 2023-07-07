@@ -55,8 +55,14 @@ const Animation = () => {
         ref={videoRef}
       >
         <source src="/animations/28-lower.mp4" type="video/mp4" />
-        <img src="../../public/2_REZYDENCJA W TANZANII/1.jpg" />
       </video>
+      {/* <div className={styles.imageContainer}>
+        <img
+          src="/logo-bg-removed.png"
+          alt="Logo"
+          className={styles.centeredLogo}
+        />
+      </div> */}
     </div>
   );
 };
