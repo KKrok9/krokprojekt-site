@@ -13,7 +13,7 @@
   pointer-events: none; /* Wyłączenie interakcji */
   width: 100%;
   height: 100%;
-  filter:blur(15px);
+  filter:  grayscale(50%) brightness(50%) contrast(60%);
 }
 
 /* Pozostałe style dla ukrywania kontrolek odtwarzacza */
