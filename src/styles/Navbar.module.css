@@ -156,13 +156,24 @@ a {
     align-items: center;
   }
 
+  @media (max-width: 500px) {
+    .logo {
+      width: 90%;
+    }
+
+    .logo-content {
+      width: 100%;
+    }
+  }
+
+
   @media (max-width: 400px) {
     .logo {
       width: 90%;
     }
 
     .logo-content {
-      width: 80%;
+      width: 100%;
     }
   }
 
