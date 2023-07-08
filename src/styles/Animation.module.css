@@ -15,7 +15,7 @@
   pointer-events: none; /* Wyłączenie interakcji */
   width: 100%;
   height: 100%;
-  filter: grayscale(20%) brightness(50%);
+  filter: grayscale(15%) brightness(60%);
   image-rendering: crisp-edges; /* Ustawienie wygładzania obrazu na minimalne */
 }
 
