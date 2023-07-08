@@ -56,13 +56,9 @@ const Animation = () => {
       >
         <source src="/animations/28-lower.mp4" type="video/mp4" />
       </video>
-      {/* <div className={styles.imageContainer}>
-        <img
-          src="/logo-bg-removed.png"
-          alt="Logo"
-          className={styles.centeredLogo}
-        />
-      </div> */}
+      <div className={styles.imageContainer}>
+        <img src="/logo-white.png" alt="Logo" className={styles.centeredLogo} />
+      </div>
     </div>
   );
 };
