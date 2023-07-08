@@ -28,7 +28,6 @@ const Animation = () => {
   useEffect(() => {
     const video = videoRef.current;
     const animationWrapper = animationWrapperRef.current;
-
     const handleLoadedMetadata = () => {
       handleResize();
     };

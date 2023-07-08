@@ -40,6 +40,21 @@
 .animationPlayer::-webkit-media-controls-panel,
 .animationPlayer::-webkit-media-controls-overlay-play-button {
   display: none; /* Ukrywanie kontrolki odtwarzacza w przeglądarkach opartych na silniku WebKit */
+  pointer-events: none;
+}
+
+video::-webkit-media-controls {
+  display: none;
+  pointer-events: none;
+}
+
+video::-webkit-media-controls-panel {
+  display: none !important;
+  opacity: 1 !important;
+}
+
+video::-webkit-media-controls-start-playback-button {
+  display: none;
 }
 
 .animationPlayer::-webkit-media-controls-timeline {
