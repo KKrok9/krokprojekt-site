@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useRef, Suspense } from "react";
+import React, { useCallback, useEffect, useRef } from "react";
 import styles from "../../styles/Animation.module.css";
 
 const Animation = () => {
@@ -45,26 +45,24 @@ const Animation = () => {
 
   return (
     <div className={styles.animationWrapper} ref={animationWrapperRef}>
-      <Suspense fallback={<div>Loading...</div>}>
-        <video
-          autoPlay
-          muted
-          loop
-          preload="auto"
-          className={styles.animationPlayer}
-          ref={videoRef}
-          playsInline
-        >
-          <source src="/animations/28-lower.mp4" type="video/mp4" />
-        </video>
-        {/* <div className={styles.imageContainer}>
-          <img
-            src="/logo-bg-removed.png"
-            alt="Logo"
-            className={styles.centeredLogo}
-          />
-        </div> */}
-      </Suspense>
+      <video
+        autoPlay
+        muted
+        loop
+        preload="auto"
+        className={styles.animationPlayer}
+        ref={videoRef}
+        playsInline
+      >
+        <source src="/animations/28-lower.mp4" type="video/mp4" />
+      </video>
+      {/* <div className={styles.imageContainer}>
+        <img
+          src="/logo-bg-removed.png"
+          alt="Logo"
+          className={styles.centeredLogo}
+        />
+      </div> */}
     </div>
   );
 };
