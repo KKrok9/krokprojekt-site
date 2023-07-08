@@ -1,2 +1,2 @@
-# PORTFOLIO WEBISTE FOR AN ARCHITECT
-## [Click here](https://www.krokprojekt.pl)
+# PORTFOLIO WEBISTE FOR AN ARCHITECT [krokprojekt.pl](https://www.krokprojekt.pl)
+
