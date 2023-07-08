@@ -22,10 +22,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  object-fit: cover;
 }
 .logo-content {
   height: 100%;
   width: 60%;
+  object-fit: cover;
 }
 .navbar-elements {
   height: 100%;

@@ -23,6 +23,7 @@
   position: absolute;
   width: 70%;
   height: 50%;
+  object-fit: cover;
 }
 .imageContainer {
   position: absolute;
@@ -32,6 +33,27 @@
   justify-content: center;
   align-items: center;
   border-radius: 12px;
+}
+@media (max-width: 1400px) {
+  .imageContainer {
+    width: 50%;
+  }
+  .animationWrapper {
+    align-items: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .imageContainer {
+    width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+  .imageContainer {
+    width: 100%;
+    height: 20%;
+  }
 }
 
 /* Pozostałe style dla ukrywania kontrolek odtwarzacza */
@@ -95,26 +117,4 @@ video::-webkit-media-controls-start-playback-button {
 
 .animationPlayer::-ms-media-controls-start {
   display: none; /* Ukrywanie przycisku odtwarzania w przeglądarkach opartych na silniku Edge/IE */
-}
-
-@media (max-width: 1400px) {
-  .imageContainer {
-    width: 50%;
-  }
-  .animationWrapper {
-    align-items: center;
-  }
-}
-
-@media (max-width: 800px) {
-  .imageContainer {
-    width: 70%;
-  }
-}
-
-@media (max-width: 600px) {
-  .imageContainer {
-    width: 100%;
-    height: 20%;
-  }
 }
