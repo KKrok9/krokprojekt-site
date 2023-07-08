@@ -61,26 +61,28 @@
 .animationPlayer::-webkit-media-controls-enclosure,
 .animationPlayer::-webkit-media-controls-panel,
 .animationPlayer::-webkit-media-controls-overlay-play-button {
-  display: none; /* Ukrywanie kontrolki odtwarzacza w przeglądarkach opartych na silniku WebKit */
-  pointer-events: none;
+  display: none !important; /* Ukrywanie kontrolki odtwarzacza w przeglądarkach opartych na silniku WebKit */
+  pointer-events: none !important;
 }
 
 video::-webkit-media-controls {
-  display: none;
-  pointer-events: none;
+  display: none !important;
+  pointer-events: none !important;
 }
 
 video::-webkit-media-controls-panel {
   display: none !important;
   opacity: 1 !important;
+  -webkit-appearance: none;
 }
 
 video::-webkit-media-controls-start-playback-button {
-  display: none;
+  display: none !important;
+  -webkit-appearance: none;
 }
 
 .animationPlayer::-webkit-media-controls-timeline {
-  display: none; /* Ukrywanie paska przesuwania momentu w przeglądarkach opartych na silniku WebKit */
+  display: none !important; /* Ukrywanie paska przesuwania momentu w przeglądarkach opartych na silniku WebKit */
 }
 
 .animationPlayer::-moz-range-progress {
@@ -108,13 +110,22 @@ video::-webkit-media-controls-start-playback-button {
   background-color: transparent; /* Ukrywanie wypełnienia paska przesuwania momentu w przeglądarkach opartych na silniku Edge/IE */
 }
 .animationPlayer::-webkit-media-controls-start-playback-button {
-  display: none; /* Ukrywanie przycisku odtwarzania w przeglądarkach opartych na silniku WebKit */
+  display: none !important; /* Ukrywanie przycisku odtwarzania w przeglądarkach opartych na silniku WebKit */
+  -webkit-appearance: none;
 }
 
 .animationPlayer::-moz-media-controls-play-button {
-  display: none; /* Ukrywanie przycisku odtwarzania w przeglądarkach opartych na silniku Gecko (np. Firefox) */
+  display: none !important; /* Ukrywanie przycisku odtwarzania w przeglądarkach opartych na silniku Gecko (np. Firefox) */
 }
 
 .animationPlayer::-ms-media-controls-start {
-  display: none; /* Ukrywanie przycisku odtwarzania w przeglądarkach opartych na silniku Edge/IE */
+  display: none !important; /* Ukrywanie przycisku odtwarzania w przeglądarkach opartych na silniku Edge/IE */
 }
+
+video::slotted::-webkit-media-controls-container {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  -webkit-appearance: none !important;
+}
+

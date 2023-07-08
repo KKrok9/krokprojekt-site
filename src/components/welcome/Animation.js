@@ -53,6 +53,7 @@ const Animation = () => {
         className={styles.animationPlayer}
         ref={videoRef}
         playsInline
+        controls="false"
       >
         <source src="/animations/28-lower.mp4" type="video/mp4" />
       </video>
