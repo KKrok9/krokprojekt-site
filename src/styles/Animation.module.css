@@ -17,6 +17,7 @@
   height: 100%;
   filter: grayscale(15%) brightness(60%);
   image-rendering: crisp-edges; /* Ustawienie wygładzania obrazu na minimalne */
+  object-fit: cover;
 }
 
 .centeredLogo {
