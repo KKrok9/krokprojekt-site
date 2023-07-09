@@ -65,6 +65,14 @@
   pointer-events: none !important;
 }
 
+/* Blokowanie przycisków odtwarzacza w przeglądarce MI */
+.animationPlayer::-webkit-media-controls-start-playback-button,
+.animationPlayer::-moz-media-controls-play-button,
+.animationPlayer::-ms-media-controls-start {
+  display: none !important;
+  -webkit-appearance: none;
+}
+
 video::-webkit-media-controls {
   display: none !important;
   pointer-events: none !important;
@@ -128,4 +136,3 @@ video::slotted::-webkit-media-controls-container {
   opacity: 0 !important;
   -webkit-appearance: none !important;
 }
-
