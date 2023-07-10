@@ -20,12 +20,6 @@
   object-fit: cover;
 }
 
-.centeredLogo {
-  position: absolute;
-  width: 70%;
-  height: 50%;
-  object-fit: cover;
-}
 .imageContainer {
   position: absolute;
   width: 40%;
@@ -34,7 +28,16 @@
   justify-content: center;
   align-items: center;
   border-radius: 12px;
+  border: solid 1px;
 }
+.centeredLogo {
+  position: absolute;
+  width: 80%;
+  height: 50%;
+  object-fit: cover;
+  border: solid 1px;
+}
+
 @media (max-width: 1400px) {
   .imageContainer {
     width: 50%;
@@ -43,10 +46,34 @@
     align-items: center;
   }
 }
+@media (max-width: 1200px) {
+  .imageContainer {
+    width: 60%;
+  }
+  .animationWrapper {
+    align-items: center;
+  }
+}
+
+@media (max-width: 950px) {
+  .imageContainer {
+    width: 75%;
+  }
+  .animationWrapper {
+    align-items: center;
+  }
+}
 
 @media (max-width: 800px) {
   .imageContainer {
-    width: 70%;
+    width: 80%;
+  }
+}
+
+
+@media (max-width: 800px) {
+  .imageContainer {
+    width: 90%;
   }
 }
 
@@ -54,6 +81,16 @@
   .imageContainer {
     width: 100%;
     height: 20%;
+  }
+}
+
+@media (max-width: 600px) {
+  .imageContainer {
+    width: 100%;
+    height: 20%;
+  }
+  .centeredLogo{
+    width: 100%;
   }
 }
 
