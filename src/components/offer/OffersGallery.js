@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import styles from "../../styles/OffersGallery.module.css";
 import SingleOffer from "./SingleOffer";
-import Modal from './Modal';
+import Modal from "./Modal";
 
 const OffersGallery = (props) => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -13,7 +13,6 @@ const OffersGallery = (props) => {
     setSelectedOffer(iconsData[index]);
     setModalOpen(true);
   };
-  console.log(iconsData);
 
   const closeModal = () => {
     setModalOpen(false);
@@ -24,7 +23,11 @@ const OffersGallery = (props) => {
     <div className={styles["gallery-container"]}>
       {iconsData.map((item, index) => {
         return (
-          <div key={index} className={styles["gallery-offer"]} onClick={() => handleOfferClick(index)}>
+          <div
+            key={index}
+            className={styles["gallery-offer"]}
+            onClick={() => handleOfferClick(index)}
+          >
             <SingleOffer
               img={item.path}
               alt="item"
