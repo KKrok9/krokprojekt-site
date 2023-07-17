@@ -32,7 +32,7 @@ const Navbar = () => {
           <Link to="/" className={styles["logo-link"]}>
             <img
               src="/logo.jpg"
-              alt="logo"
+              alt=""
               className={styles["logo-content"]}
             ></img>
           </Link>
