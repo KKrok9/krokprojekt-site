@@ -340,7 +340,7 @@ const projectsData = [
     content: "Jest to projekt hotelu w uściu gorlickim",
     images: [
       "/strona-www/INWENTARYZACJA BUDYNKÓW NA BAZIE CHMURY PUNKTÓW W GLIWICACH/0.jpg",
-      "/strona-www/INWENTARYZACJA BUDYNKÓW NA BAZIE CHMURY PUNKTÓW W GLIWICACH/1.pnG",
+      "/strona-www/INWENTARYZACJA BUDYNKÓW NA BAZIE CHMURY PUNKTÓW W GLIWICACH/1.png",
       "/strona-www/INWENTARYZACJA BUDYNKÓW NA BAZIE CHMURY PUNKTÓW W GLIWICACH/2.png",
       "/strona-www/INWENTARYZACJA BUDYNKÓW NA BAZIE CHMURY PUNKTÓW W GLIWICACH/3.png",
       "/strona-www/INWENTARYZACJA BUDYNKÓW NA BAZIE CHMURY PUNKTÓW W GLIWICACH/4.png",
