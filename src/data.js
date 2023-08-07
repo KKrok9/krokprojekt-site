@@ -313,6 +313,45 @@ const projectsData = [
       "/strona-www/DOM JEDNORODZINNY - 23Z2/4.jpg",
     ],
   },
+  {
+    title: "DOM JEDNORODZINNY ST-1",
+    content: "Jest to projekt hotelu w uściu gorlickim",
+    images: [
+      "/strona-www/DOM JEDNORODZINNY ST-1/0.jpg",
+      "/strona-www/DOM JEDNORODZINNY ST-1/1.jpg",
+      "/strona-www/DOM JEDNORODZINNY ST-1/2.jpg",
+      "/strona-www/DOM JEDNORODZINNY ST-1/3.jpg",
+      "/strona-www/DOM JEDNORODZINNY ST-1/4.jpg",
+    ],
+  },
+  {
+    title: "DOM JEDNORODZINNY ST-2",
+    content: "Jest to projekt hotelu w uściu gorlickim",
+    images: [
+      "/strona-www/DOM JEDNORODZINNY ST-2/0.jpg",
+      "/strona-www/DOM JEDNORODZINNY ST-2/1.jpg",
+      "/strona-www/DOM JEDNORODZINNY ST-2/2.jpg",
+      "/strona-www/DOM JEDNORODZINNY ST-2/3.jpg",
+      "/strona-www/DOM JEDNORODZINNY ST-2/4.jpg",
+    ],
+  },
+  {
+    title: "INWENTARYZACJA BUDYNKÓW NA BAZIE CHMURY PUNKTÓW W GLIWICACH",
+    content: "Jest to projekt hotelu w uściu gorlickim",
+    images: [
+      "/strona-www/INWENTARYZACJA BUDYNKÓW NA BAZIE CHMURY PUNKTÓW W GLIWICACH/0.jpg",
+      "/strona-www/INWENTARYZACJA BUDYNKÓW NA BAZIE CHMURY PUNKTÓW W GLIWICACH/1.pnG",
+      "/strona-www/INWENTARYZACJA BUDYNKÓW NA BAZIE CHMURY PUNKTÓW W GLIWICACH/2.png",
+      "/strona-www/INWENTARYZACJA BUDYNKÓW NA BAZIE CHMURY PUNKTÓW W GLIWICACH/3.png",
+      "/strona-www/INWENTARYZACJA BUDYNKÓW NA BAZIE CHMURY PUNKTÓW W GLIWICACH/4.png",
+      "/strona-www/INWENTARYZACJA BUDYNKÓW NA BAZIE CHMURY PUNKTÓW W GLIWICACH/5.png",
+      "/strona-www/INWENTARYZACJA BUDYNKÓW NA BAZIE CHMURY PUNKTÓW W GLIWICACH/6.png",
+      "/strona-www/INWENTARYZACJA BUDYNKÓW NA BAZIE CHMURY PUNKTÓW W GLIWICACH/7.png",
+      "/strona-www/INWENTARYZACJA BUDYNKÓW NA BAZIE CHMURY PUNKTÓW W GLIWICACH/8.png",
+      "/strona-www/INWENTARYZACJA BUDYNKÓW NA BAZIE CHMURY PUNKTÓW W GLIWICACH/9.png",
+      "/strona-www/INWENTARYZACJA BUDYNKÓW NA BAZIE CHMURY PUNKTÓW W GLIWICACH/10.png",
+    ],
+  },
 ];
 
 const iconsData = [
