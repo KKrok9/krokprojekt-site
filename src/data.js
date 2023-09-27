@@ -29,12 +29,12 @@ const projectsData = [
         content: "",
         images: [
             "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/0.jpg",
-            "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/1.png",
-            "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/2.png",
-            "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/3.png",
-            "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/4.png",
-            "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/5.png",
-            "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/6.png",
+            "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/1.jpg",
+            "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/2.jpg",
+            "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/3.jpg",
+            "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/4.jpg",
+            "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/5.jpg",
+            "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/6.jpg",
         ]
     },
     {
