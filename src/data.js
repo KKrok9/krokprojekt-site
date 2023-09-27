@@ -16,12 +16,12 @@ const projectsData = [
         content: "",
         images: [
             "/strona-www/16_BUDYNEK MIESZKALNY W LODZI/0.jpg",
-            "/strona-www/16_BUDYNEK MIESZKALNY W LODZI/1.png",
-            "/strona-www/16_BUDYNEK MIESZKALNY W LODZI/2.png",
-            "/strona-www/16_BUDYNEK MIESZKALNY W LODZI/3.png",
-            "/strona-www/16_BUDYNEK MIESZKALNY W LODZI/4.png",
-            "/strona-www/16_BUDYNEK MIESZKALNY W LODZI/5.png",
-            "/strona-www/16_BUDYNEK MIESZKALNY W LODZI/6.png",
+            "/strona-www/16_BUDYNEK MIESZKALNY W LODZI/1.jpg",
+            "/strona-www/16_BUDYNEK MIESZKALNY W LODZI/2.jpg",
+            "/strona-www/16_BUDYNEK MIESZKALNY W LODZI/3.jpg",
+            "/strona-www/16_BUDYNEK MIESZKALNY W LODZI/4.jpg",
+            "/strona-www/16_BUDYNEK MIESZKALNY W LODZI/5.jpg",
+            "/strona-www/16_BUDYNEK MIESZKALNY W LODZI/6.jpg",
         ]
     },
     {
