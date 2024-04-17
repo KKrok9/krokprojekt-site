@@ -12,6 +12,23 @@ const projectsData = [
         ]
     },
     {
+        title: "BUDYNEK MIESZKALNY W RAWIE MAZOWIECKIEJ",
+        content: "Jest to projekt hotelu w uściu gorlickim",
+        images: [
+            "/strona-www/rawa_mazowiecka/0.jpg",
+            "/strona-www/rawa_mazowiecka/1.png",
+            "/strona-www/rawa_mazowiecka/2.png",
+            "/strona-www/rawa_mazowiecka/3.png",
+            "/strona-www/rawa_mazowiecka/4.png",
+            "/strona-www/rawa_mazowiecka/5.png",
+            "/strona-www/rawa_mazowiecka/6.png",
+            "/strona-www/rawa_mazowiecka/7.png",
+            "/strona-www/rawa_mazowiecka/8.png",
+            "/strona-www/rawa_mazowiecka/9.png",
+            "/strona-www/rawa_mazowiecka/10.png",
+        ],
+    },
+    {
         title: "BUDYNEK MIESZKALNY W ŁODZI",
         content: "",
         images: [
@@ -23,6 +40,49 @@ const projectsData = [
             "/strona-www/16_BUDYNEK MIESZKALNY W LODZI/5.jpg",
             "/strona-www/16_BUDYNEK MIESZKALNY W LODZI/6.jpg",
         ]
+    },
+    {
+        title: "BUDYNEK MIESZKALNY W WIELICZCE",
+        content: "Jest to projekt hotelu w uściu gorlickim",
+        images: [
+            "/strona-www/wieliczka/0.jpg",
+            "/strona-www/wieliczka/1.png",
+            "/strona-www/wieliczka/2.png",
+            "/strona-www/wieliczka/3.png",
+            "/strona-www/wieliczka/4.png",
+            "/strona-www/wieliczka/5.png",
+            "/strona-www/wieliczka/6.png",
+        ],
+    },
+    {
+        title: "BUDYNEK USŁUGI TURYSTYCZNEJ W ZŁOTNIE",
+        content: "Jest to projekt hotelu w uściu gorlickim",
+        images: [
+            "/strona-www/zlotno/0.jpg",
+            "/strona-www/zlotnoa/1.png",
+            "/strona-www/zlotno/2.png",
+            "/strona-www/zlotno/3.png",
+            "/strona-www/zlotno/4.png",
+            "/strona-www/zlotno/5.png",
+            "/strona-www/zlotnoa/6.png",
+            "/strona-www/zlotno/7.png",
+            "/strona-www/zlotno/8.png",
+            "/strona-www/zlotnoa/9.png",
+            "/strona-www/zlotno/10.png",
+        ],
+    },
+
+    {
+        title: "BUDYNEK MIESZKALNY W KOPKACH",
+        content: "Jest to projekt hotelu w uściu gorlickim",
+        images: [
+            "/strona-www/kopki/0.jpg",
+            "/strona-www/kopki/1.png",
+            "/strona-www/kopki/2.png",
+            "/strona-www/kopki/3.png",
+            "/strona-www/kopki/4.png",
+            "/strona-www/kopki/5.png",
+        ],
     },
     {
         title: "BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH",
@@ -389,8 +449,48 @@ const projectsData = [
             "/strona-www/INWENTARYZACJA BUDYNKÓW NA BAZIE CHMURY PUNKTÓW W GLIWICACH/9.png",
             "/strona-www/INWENTARYZACJA BUDYNKÓW NA BAZIE CHMURY PUNKTÓW W GLIWICACH/10.png",
         ],
-    }
+    },
+    {
+        title: "BUDYNEK MIESZKALNY W DUCHNICACH",
+        content: "Jest to projekt hotelu w uściu gorlickim",
+        images: [
+            "/strona-www/duchnice/0.jpg",
+            "/strona-www/duchnice/1.png",
+            "/strona-www/duchnice/2.png",
+            "/strona-www/duchnice/3.png",
+            "/strona-www/duchnice/4.png",
+        ],
+    },
+    {
+        title: "BUDYNEK USŁUGI TURYSTYCZNEJ W ZŁOTNIE",
+        content: "Jest to projekt hotelu w uściu gorlickim",
+        images: [
+            "/strona-www/zlotno/0.jpg",
+            "/strona-www/zlotnoa/1.png",
+            "/strona-www/zlotno/2.png",
+            "/strona-www/zlotno/3.png",
+            "/strona-www/zlotno/4.png",
+            "/strona-www/zlotno/5.png",
+            "/strona-www/zlotnoa/6.png",
+            "/strona-www/zlotno/7.png",
+            "/strona-www/zlotno/8.png",
+            "/strona-www/zlotnoa/9.png",
+            "/strona-www/zlotno/10.png",
+        ],
+    },
 
+    {
+        title: "BUDYNEK MIESZKALNY W KOPKACH",
+        content: "Jest to projekt hotelu w uściu gorlickim",
+        images: [
+            "/strona-www/kopki/0.jpg",
+            "/strona-www/kopki/1.png",
+            "/strona-www/kopki/2.png",
+            "/strona-www/kopki/3.png",
+            "/strona-www/kopki/4.png",
+            "/strona-www/kopki/5.png",
+        ],
+    },
 ];
 
 const iconsData = [
