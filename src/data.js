@@ -1,5 +1,104 @@
 const projectsData = [
     {
+        title: "BUDYNEK MIESZKALNY W WĘGRZCACH",
+        content: "",
+        images: [
+            "/strona-www/BUDYNEK MIESZKALNY W WĘGRZCACH/1.png",
+            "/strona-www/BUDYNEK MIESZKALNY W WĘGRZCACH/1.png",
+            "/strona-www/BUDYNEK MIESZKALNY W WĘGRZCACH/2.png",
+            "/strona-www/BUDYNEK MIESZKALNY W WĘGRZCACH/3.png",
+            "/strona-www/BUDYNEK MIESZKALNY W WĘGRZCACH/4.png",
+            "/strona-www/BUDYNEK MIESZKALNY W WĘGRZCACH/5.png"
+        ]
+    },
+    {
+        title: "BUDYNEK MIESZKALNY W SIERADZU",
+        content: "",
+        images: [
+            "/strona-www/BUDYNEK MIESZKALNY W SIERADZU/1.png",
+            "/strona-www/BUDYNEK MIESZKALNY W SIERADZU/1.png",
+            "/strona-www/BUDYNEK MIESZKALNY W SIERADZU/2.png",
+            "/strona-www/BUDYNEK MIESZKALNY W SIERADZU/3.png",
+            "/strona-www/BUDYNEK MIESZKALNY W SIERADZU/4.png",
+            "/strona-www/BUDYNEK MIESZKALNY W SIERADZU/5.png"
+        ]
+    },
+    {
+        title: "BUDYNEK MIESZKALNY W MUSZYNIE",
+        content: "",
+        images: [
+            "/strona-www/BUDYNEK MIESZKALNY W MUSZYNIE/1.png",
+            "/strona-www/BUDYNEK MIESZKALNY W MUSZYNIE/1.png",
+            "/strona-www/BUDYNEK MIESZKALNY W MUSZYNIE/2.png",
+            "/strona-www/BUDYNEK MIESZKALNY W MUSZYNIE/3.png",
+            "/strona-www/BUDYNEK MIESZKALNY W MUSZYNIE/4.png",
+            "/strona-www/BUDYNEK MIESZKALNY W MUSZYNIE/5.png"
+        ]
+    },
+    {
+
+        title: "BUDYNEK MIESZKALNY W KAJETANACH",
+        content: "",
+        images: [
+            "/strona-www/BUDYNEK MIESZKALNY W KAJETANACH/1.png",
+            "/strona-www/BUDYNEK MIESZKALNY W KAJETANACH/1.png",
+            "/strona-www/BUDYNEK MIESZKALNY W KAJETANACH/2.png",
+            "/strona-www/BUDYNEK MIESZKALNY W KAJETANACH/3.png",
+            "/strona-www/BUDYNEK MIESZKALNY W KAJETANACH/4.png",
+            "/strona-www/BUDYNEK MIESZKALNY W KAJETANACH/5.png",
+            "/strona-www/BUDYNEK MIESZKALNY W KAJETANACH/6.png",
+            "/strona-www/BUDYNEK MIESZKALNY W KAJETANACH/7.png"
+        ]
+    },
+    {
+        title: "BUDYNEK MIESZKALNY W MAKOWIE PODHALAŃSKIM",
+        content: "",
+        images: [
+            "/strona-www/BUDYNEK MIESZKALNY W MAKOWIE PODHALAŃSKIM/1.png",
+            "/strona-www/BUDYNEK MIESZKALNY W MAKOWIE PODHALAŃSKIM/1.png",
+            "/strona-www/BUDYNEK MIESZKALNY W MAKOWIE PODHALAŃSKIM/2.png",
+            "/strona-www/BUDYNEK MIESZKALNY W MAKOWIE PODHALAŃSKIM/3.png",
+            "/strona-www/BUDYNEK MIESZKALNY W MAKOWIE PODHALAŃSKIM/4.png"
+        ]
+    },
+    {
+        title: "BUDYNEK MIESZKALNY W MIEJSCOWOŚCI WALNE",
+        content: "",
+        images: [
+            "/strona-www/BUDYNEK MIESZKALNY W MIEJSCOWOŚCI WALNE/1.png",
+            "/strona-www/BUDYNEK MIESZKALNY W MIEJSCOWOŚCI WALNE/1.png",
+            "/strona-www/BUDYNEK MIESZKALNY W MIEJSCOWOŚCI WALNE/2.png",
+            "/strona-www/BUDYNEK MIESZKALNY W MIEJSCOWOŚCI WALNE/3.png",
+            "/strona-www/BUDYNEK MIESZKALNY W MIEJSCOWOŚCI WALNE/4.png"
+        ]
+    },
+    {
+        title: "BUDYNEK MIESZKALNY W NAWOJOWEJ",
+        content: "",
+        images: [
+            "/strona-www/BUDYNEK MIESZKALNY W NAWOJOWEJ/1.png",
+            "/strona-www/BUDYNEK MIESZKALNY W NAWOJOWEJ/1.png",
+            "/strona-www/BUDYNEK MIESZKALNY W NAWOJOWEJ/2.png",
+            "/strona-www/BUDYNEK MIESZKALNY W NAWOJOWEJ/3.png",
+            "/strona-www/BUDYNEK MIESZKALNY W NAWOJOWEJ/4.png",
+            "/strona-www/BUDYNEK MIESZKALNY W NAWOJOWEJ/5.png"
+        ]
+    },
+    {
+        title: "BUDYNEK MIESZKALNY W OŻAROWIE MAZOWIECKIM",
+        content: "",
+        images: [
+            "/strona-www/BUDYNEK MIESZKALNY W OŻAROWIE MAZOWIECKIM/1.png",
+            "/strona-www/BUDYNEK MIESZKALNY W OŻAROWIE MAZOWIECKIM/1.png",
+            "/strona-www/BUDYNEK MIESZKALNY W OŻAROWIE MAZOWIECKIM/2.png",
+            "/strona-www/BUDYNEK MIESZKALNY W OŻAROWIE MAZOWIECKIM/3.png",
+            "/strona-www/BUDYNEK MIESZKALNY W OŻAROWIE MAZOWIECKIM/4.png",
+            "/strona-www/BUDYNEK MIESZKALNY W OŻAROWIE MAZOWIECKIM/5.png",
+            "/strona-www/BUDYNEK MIESZKALNY W OŻAROWIE MAZOWIECKIM/6.png"
+        ]
+    },
+    {
+
         title: "BUDYNEK MIESZKALNY W PĘCLINIE",
         content: "",
         images: [
@@ -66,7 +165,7 @@ const projectsData = [
         title: "BUDYNEK MIESZKALNY W KOPKACH",
         content: "Jest to projekt hotelu w uściu gorlickim",
         images: [
-            "/strona-www/kopki/0.jpg",
+            "/strona-www/kopki/1.png",
             "/strona-www/kopki/1.png",
             "/strona-www/kopki/2.png",
             "/strona-www/kopki/3.png",

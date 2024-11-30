@@ -23,8 +23,9 @@
   align-items: center;
   background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
-  font-size: 28px;
+  font-size: 22px;
   opacity: 0;
+  text-align: center;
 }
 
 .single-image-container:hover .image-overlay {
