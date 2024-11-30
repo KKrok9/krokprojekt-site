@@ -3,7 +3,7 @@ const projectsData = [
         title: "BUDYNEK MIESZKALNY W WĘGRZCACH",
         content: "",
         images: [
-            "/strona-www/BUDYNEK MIESZKALNY W WĘGRZCACH/1.png",
+            "/strona-www/BUDYNEK MIESZKALNY W WĘGRZCACH/0.jpg",
             "/strona-www/BUDYNEK MIESZKALNY W WĘGRZCACH/1.png",
             "/strona-www/BUDYNEK MIESZKALNY W WĘGRZCACH/2.png",
             "/strona-www/BUDYNEK MIESZKALNY W WĘGRZCACH/3.png",
@@ -15,7 +15,7 @@ const projectsData = [
         title: "BUDYNEK MIESZKALNY W SIERADZU",
         content: "",
         images: [
-            "/strona-www/BUDYNEK MIESZKALNY W SIERADZU/1.png",
+            "/strona-www/BUDYNEK MIESZKALNY W SIERADZU/0.jpg",
             "/strona-www/BUDYNEK MIESZKALNY W SIERADZU/1.png",
             "/strona-www/BUDYNEK MIESZKALNY W SIERADZU/2.png",
             "/strona-www/BUDYNEK MIESZKALNY W SIERADZU/3.png",
@@ -27,7 +27,7 @@ const projectsData = [
         title: "BUDYNEK MIESZKALNY W MUSZYNIE",
         content: "",
         images: [
-            "/strona-www/BUDYNEK MIESZKALNY W MUSZYNIE/1.png",
+            "/strona-www/BUDYNEK MIESZKALNY W MUSZYNIE/0.jpg",
             "/strona-www/BUDYNEK MIESZKALNY W MUSZYNIE/1.png",
             "/strona-www/BUDYNEK MIESZKALNY W MUSZYNIE/2.png",
             "/strona-www/BUDYNEK MIESZKALNY W MUSZYNIE/3.png",
@@ -40,7 +40,7 @@ const projectsData = [
         title: "BUDYNEK MIESZKALNY W KAJETANACH",
         content: "",
         images: [
-            "/strona-www/BUDYNEK MIESZKALNY W KAJETANACH/1.png",
+            "/strona-www/BUDYNEK MIESZKALNY W KAJETANACH/0.jpg",
             "/strona-www/BUDYNEK MIESZKALNY W KAJETANACH/1.png",
             "/strona-www/BUDYNEK MIESZKALNY W KAJETANACH/2.png",
             "/strona-www/BUDYNEK MIESZKALNY W KAJETANACH/3.png",
@@ -54,7 +54,7 @@ const projectsData = [
         title: "BUDYNEK MIESZKALNY W MAKOWIE PODHALAŃSKIM",
         content: "",
         images: [
-            "/strona-www/BUDYNEK MIESZKALNY W MAKOWIE PODHALAŃSKIM/1.png",
+            "/strona-www/BUDYNEK MIESZKALNY W MAKOWIE PODHALAŃSKIM/0.jpg",
             "/strona-www/BUDYNEK MIESZKALNY W MAKOWIE PODHALAŃSKIM/1.png",
             "/strona-www/BUDYNEK MIESZKALNY W MAKOWIE PODHALAŃSKIM/2.png",
             "/strona-www/BUDYNEK MIESZKALNY W MAKOWIE PODHALAŃSKIM/3.png",
@@ -65,7 +65,7 @@ const projectsData = [
         title: "BUDYNEK MIESZKALNY W MIEJSCOWOŚCI WALNE",
         content: "",
         images: [
-            "/strona-www/BUDYNEK MIESZKALNY W MIEJSCOWOŚCI WALNE/1.png",
+            "/strona-www/BUDYNEK MIESZKALNY W MIEJSCOWOŚCI WALNE/0.jpg",
             "/strona-www/BUDYNEK MIESZKALNY W MIEJSCOWOŚCI WALNE/1.png",
             "/strona-www/BUDYNEK MIESZKALNY W MIEJSCOWOŚCI WALNE/2.png",
             "/strona-www/BUDYNEK MIESZKALNY W MIEJSCOWOŚCI WALNE/3.png",
@@ -76,7 +76,7 @@ const projectsData = [
         title: "BUDYNEK MIESZKALNY W NAWOJOWEJ",
         content: "",
         images: [
-            "/strona-www/BUDYNEK MIESZKALNY W NAWOJOWEJ/1.png",
+            "/strona-www/BUDYNEK MIESZKALNY W NAWOJOWEJ/0.jpg",
             "/strona-www/BUDYNEK MIESZKALNY W NAWOJOWEJ/1.png",
             "/strona-www/BUDYNEK MIESZKALNY W NAWOJOWEJ/2.png",
             "/strona-www/BUDYNEK MIESZKALNY W NAWOJOWEJ/3.png",
@@ -88,7 +88,7 @@ const projectsData = [
         title: "BUDYNEK MIESZKALNY W OŻAROWIE MAZOWIECKIM",
         content: "",
         images: [
-            "/strona-www/BUDYNEK MIESZKALNY W OŻAROWIE MAZOWIECKIM/1.png",
+            "/strona-www/BUDYNEK MIESZKALNY W OŻAROWIE MAZOWIECKIM/0.jpg",
             "/strona-www/BUDYNEK MIESZKALNY W OŻAROWIE MAZOWIECKIM/1.png",
             "/strona-www/BUDYNEK MIESZKALNY W OŻAROWIE MAZOWIECKIM/2.png",
             "/strona-www/BUDYNEK MIESZKALNY W OŻAROWIE MAZOWIECKIM/3.png",
@@ -102,7 +102,7 @@ const projectsData = [
         title: "BUDYNEK MIESZKALNY W PĘCLINIE",
         content: "",
         images: [
-            "/strona-www/15_BUDYNEK MIESZKALNY W PECLINIE/1.png",
+            "/strona-www/15_BUDYNEK MIESZKALNY W PECLINIE/0.jpg",
             "/strona-www/15_BUDYNEK MIESZKALNY W PECLINIE/1.png",
             "/strona-www/15_BUDYNEK MIESZKALNY W PECLINIE/2.png",
             "/strona-www/15_BUDYNEK MIESZKALNY W PECLINIE/3.png",
@@ -114,7 +114,7 @@ const projectsData = [
         title: "BUDYNEK MIESZKALNY W RAWIE MAZOWIECKIEJ",
         content: "Jest to projekt hotelu w uściu gorlickim",
         images: [
-            "/strona-www/rawa_mazowiecka/1.png",
+            "/strona-www/rawa_mazowiecka/0.jpg",
             "/strona-www/rawa_mazowiecka/1.png",
             "/strona-www/rawa_mazowiecka/2.png",
             "/strona-www/rawa_mazowiecka/3.png",
@@ -152,7 +152,7 @@ const projectsData = [
         title: "BUDYNEK USŁUGI TURYSTYCZNEJ W ZŁOTNIE",
         content: "Jest to projekt hotelu w uściu gorlickim",
         images: [
-            "/strona-www/zlotno/1.png",
+            "/strona-www/zlotno/0.jpg",
             "/strona-www/zlotno/1.png",
             "/strona-www/zlotno/2.png",
             "/strona-www/zlotno/3.png",
@@ -165,7 +165,7 @@ const projectsData = [
         title: "BUDYNEK MIESZKALNY W KOPKACH",
         content: "Jest to projekt hotelu w uściu gorlickim",
         images: [
-            "/strona-www/kopki/1.png",
+            "/strona-www/kopki/0.jpg",
             "/strona-www/kopki/1.png",
             "/strona-www/kopki/2.png",
             "/strona-www/kopki/3.png",
@@ -177,7 +177,7 @@ const projectsData = [
         title: "BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH",
         content: "",
         images: [
-            "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/1.png",
+            "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/0.jpg",
             "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/1.png",
             "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/2.png",
             "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/3.png",
@@ -349,7 +349,7 @@ const projectsData = [
         title: "BUDYNEK MIESZKALNY W KRAKOWIE NA ULICY TYNIECKIEJ",
         content: "Jest to projekt hotelu w uściu gorlickim",
         images: [
-            "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/1.png",
+            "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/0.jpg",
             "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/1.png",
             "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/2.png",
             "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/3.png",
@@ -547,23 +547,6 @@ const projectsData = [
             "/strona-www/duchnice/2.png",
             "/strona-www/duchnice/3.png",
             "/strona-www/duchnice/4.png",
-        ],
-    },
-    {
-        title: "BUDYNKI POD WYNAJEM W ZŁOTNIE",
-        content: "Jest to projekt hotelu w uściu gorlickim",
-        images: [
-            "/strona-www/zlotno/0.jpg",
-            "/strona-www/zlotnoa/1.png",
-            "/strona-www/zlotno/2.png",
-            "/strona-www/zlotno/3.png",
-            "/strona-www/zlotno/4.png",
-            "/strona-www/zlotno/5.png",
-            "/strona-www/zlotnoa/6.png",
-            "/strona-www/zlotno/7.png",
-            "/strona-www/zlotno/8.png",
-            "/strona-www/zlotnoa/9.png",
-            "/strona-www/zlotno/10.png",
         ],
     },
 ];
