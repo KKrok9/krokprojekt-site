@@ -566,19 +566,6 @@ const projectsData = [
             "/strona-www/zlotno/10.png",
         ],
     },
-
-    {
-        title: "BUDYNEK MIESZKALNY W KOPKACH",
-        content: "Jest to projekt hotelu w uściu gorlickim",
-        images: [
-            "/strona-www/kopki/0.jpg",
-            "/strona-www/kopki/1.png",
-            "/strona-www/kopki/2.png",
-            "/strona-www/kopki/3.png",
-            "/strona-www/kopki/4.png",
-            "/strona-www/kopki/5.png",
-        ],
-    },
 ];
 
 const iconsData = [
