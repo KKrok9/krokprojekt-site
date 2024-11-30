@@ -3,7 +3,7 @@ const projectsData = [
         title: "BUDYNEK MIESZKALNY W PĘCLINIE",
         content: "",
         images: [
-            "/strona-www/15_BUDYNEK MIESZKALNY W PECLINIE/0.jpg",
+            "/strona-www/15_BUDYNEK MIESZKALNY W PECLINIE/1.png",
             "/strona-www/15_BUDYNEK MIESZKALNY W PECLINIE/1.png",
             "/strona-www/15_BUDYNEK MIESZKALNY W PECLINIE/2.png",
             "/strona-www/15_BUDYNEK MIESZKALNY W PECLINIE/3.png",
@@ -15,7 +15,7 @@ const projectsData = [
         title: "BUDYNEK MIESZKALNY W RAWIE MAZOWIECKIEJ",
         content: "Jest to projekt hotelu w uściu gorlickim",
         images: [
-            "/strona-www/rawa_mazowiecka/0.jpg",
+            "/strona-www/rawa_mazowiecka/1.png",
             "/strona-www/rawa_mazowiecka/1.png",
             "/strona-www/rawa_mazowiecka/2.png",
             "/strona-www/rawa_mazowiecka/3.png",
@@ -23,9 +23,6 @@ const projectsData = [
             "/strona-www/rawa_mazowiecka/5.png",
             "/strona-www/rawa_mazowiecka/6.png",
             "/strona-www/rawa_mazowiecka/7.png",
-            "/strona-www/rawa_mazowiecka/8.png",
-            "/strona-www/rawa_mazowiecka/9.png",
-            "/strona-www/rawa_mazowiecka/10.png",
         ],
     },
     {
@@ -45,30 +42,23 @@ const projectsData = [
         title: "BUDYNEK MIESZKALNY W WIELICZCE",
         content: "Jest to projekt hotelu w uściu gorlickim",
         images: [
-            "/strona-www/wieliczka/0.jpg",
+            "/strona-www/wieliczka/1.png",
             "/strona-www/wieliczka/1.png",
             "/strona-www/wieliczka/2.png",
             "/strona-www/wieliczka/3.png",
             "/strona-www/wieliczka/4.png",
-            "/strona-www/wieliczka/5.png",
-            "/strona-www/wieliczka/6.png",
         ],
     },
     {
         title: "BUDYNEK USŁUGI TURYSTYCZNEJ W ZŁOTNIE",
         content: "Jest to projekt hotelu w uściu gorlickim",
         images: [
-            "/strona-www/zlotno/0.jpg",
-            "/strona-www/zlotnoa/1.png",
+            "/strona-www/zlotno/1.png",
+            "/strona-www/zlotno/1.png",
             "/strona-www/zlotno/2.png",
             "/strona-www/zlotno/3.png",
             "/strona-www/zlotno/4.png",
             "/strona-www/zlotno/5.png",
-            "/strona-www/zlotnoa/6.png",
-            "/strona-www/zlotno/7.png",
-            "/strona-www/zlotno/8.png",
-            "/strona-www/zlotnoa/9.png",
-            "/strona-www/zlotno/10.png",
         ],
     },
 
@@ -88,13 +78,12 @@ const projectsData = [
         title: "BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH",
         content: "",
         images: [
-            "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/0.jpg",
-            "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/1.jpg",
-            "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/2.jpg",
-            "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/3.jpg",
-            "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/4.jpg",
-            "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/5.jpg",
-            "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/6.jpg",
+            "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/1.png",
+            "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/1.png",
+            "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/2.png",
+            "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/3.png",
+            "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/4.png",
+            "/strona-www/17_BUDYNEK MIESZKALNY JEDNORODZINNY W KATOWICACH/5.png",
         ]
     },
     {
@@ -257,15 +246,15 @@ const projectsData = [
             "/strona-www/10_ZESPÓŁ BUDYNKÓW WIELORODZINNYCH W KONINIE ŻEGAŃSKIM/6.jpg",
         ],
     },
-
     {
-        title: "BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE",
+        title: "BUDYNEK MIESZKALNY W KRAKOWIE NA ULICY TYNIECKIEJ",
         content: "Jest to projekt hotelu w uściu gorlickim",
         images: [
-            "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/0.jpg",
-            "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/1.jpg",
-            "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/2.jpg",
-            "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/3.jpg",
+            "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/1.png",
+            "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/1.png",
+            "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/2.png",
+            "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/3.png",
+            "/strona-www/7_BUDYNEK JEDNORODZINNY NA ULICY TYNIECKIEJ W KRAKOWIE/4.png",
         ],
     },
     {
@@ -462,7 +451,7 @@ const projectsData = [
         ],
     },
     {
-        title: "BUDYNEK USŁUGI TURYSTYCZNEJ W ZŁOTNIE",
+        title: "BUDYNKI POD WYNAJEM W ZŁOTNIE",
         content: "Jest to projekt hotelu w uściu gorlickim",
         images: [
             "/strona-www/zlotno/0.jpg",
