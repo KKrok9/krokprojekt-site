@@ -141,7 +141,7 @@ const projectsData = [
         title: "BUDYNEK MIESZKALNY W WIELICZCE",
         content: "Jest to projekt hotelu w uściu gorlickim",
         images: [
-            "/strona-www/wieliczka/1.png",
+            "/strona-www/wieliczka/0.jpg",
             "/strona-www/wieliczka/1.png",
             "/strona-www/wieliczka/2.png",
             "/strona-www/wieliczka/3.png",
