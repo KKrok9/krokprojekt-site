@@ -1,113 +1,116 @@
-import React, { useState, useRef, lazy, Suspense } from "react";
+import React, { useState, useRef, lazy, Suspense, useEffect } from "react";
 import styles from "../../styles/ProjectDetailsGallery.module.css";
 
 const ProjectDetailsGalleryImage = lazy(() =>
-  import("./ProjectDetailsGalleryImage")
+    import("./ProjectDetailsGalleryImage")
 );
 
 const ProjectDetailsGallery = (props) => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const modalRef = useRef(null);
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+    const modalRef = useRef(null);
 
-  const openModalHandler = (imageSrc, index) => {
-    setIsModalOpen(true);
-    setCurrentImageIndex(index);
-  };
+    const openModalHandler = (imageSrc, index) => {
+        setIsModalOpen(true);
+        setCurrentImageIndex(index);
+    };
 
-  const closeModalHandler = () => {
-    setIsModalOpen(false);
-  };
+    useEffect(() => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    }, []);
 
-  const handleImageClick = (event) => {
-    event.stopPropagation();
-  };
+    const closeModalHandler = () => {
+        setIsModalOpen(false);
+    };
 
-  const handleArrowClick = (event) => {
-    event.stopPropagation();
-    if (event.target.className === styles["modal-previous-button"]) {
-      goToPreviousImage();
-    } else if (event.target.className === styles["modal-next-button"]) {
-      goToNextImage();
-    }
-  };
+    const handleImageClick = (event) => {
+        event.stopPropagation();
+    };
 
-  const fullProjectData = props.src.images; // Usuń Object.values(), jeśli props.src.images już jest tablicą obiektów
-  const projectData = [...fullProjectData];
-  projectData.splice(0, 1);
+    const handleArrowClick = (event) => {
+        event.stopPropagation();
+        if (event.target.className === styles["modal-previous-button"]) {
+            goToPreviousImage();
+        } else if (event.target.className === styles["modal-next-button"]) {
+            goToNextImage();
+        }
+    };
 
-  const goToPreviousImage = () => {
-    if (currentImageIndex > 0) {
-      setCurrentImageIndex(currentImageIndex - 1);
-    }
-  };
+    const fullProjectData = props.src.images;
+    const projectData = [...fullProjectData];
+    projectData.splice(0, 1);
 
-  const goToNextImage = () => {
-    if (currentImageIndex < projectData.length - 1) {
-      setCurrentImageIndex(currentImageIndex + 1);
-    }
-  };
+    const goToPreviousImage = () => {
+        if (currentImageIndex > 0) {
+            setCurrentImageIndex(currentImageIndex - 1);
+        }
+    };
 
-  return (
-    <div className={styles.container}>
-      {isModalOpen && (
-        <div
-          className={styles.modal}
-          onClick={closeModalHandler}
-          ref={modalRef}
-        >
-          <img
-            src={projectData[currentImageIndex]}
-            className={styles["modal-image"]}
-            alt="modal"
-            onClick={handleImageClick}
-          />
-          <button
-            className={styles["modal-close-button"]}
-            onClick={closeModalHandler}
-          >
-            X
-          </button>
-          <button
-            className={styles["modal-previous-button"]}
-            onClick={handleArrowClick}
-          >
-            &lt;
-          </button>
-          <button
-            className={styles["modal-next-button"]}
-            onClick={handleArrowClick}
-          >
-            &gt;
-          </button>
-          <div className={styles["indicator-container"]}>
-            {projectData.map((_, index) => (
-              <div
-                key={index}
-                className={`${styles.indicator} ${
-                  index === currentImageIndex ? styles["active-indicator"] : ""
-                }`}
-              ></div>
-            ))}
-          </div>
+    const goToNextImage = () => {
+        if (currentImageIndex < projectData.length - 1) {
+            setCurrentImageIndex(currentImageIndex + 1);
+        }
+    };
+
+    return (
+        <div className={styles.container}>
+            {isModalOpen && (
+                <div
+                    className={styles.modal}
+                    onClick={closeModalHandler}
+                    ref={modalRef}
+                >
+                    <img
+                        src={projectData[currentImageIndex]}
+                        className={styles["modal-image"]}
+                        alt="modal"
+                        onClick={handleImageClick}
+                    />
+                    <button
+                        className={styles["modal-close-button"]}
+                        onClick={closeModalHandler}
+                    >
+                        X
+                    </button>
+                    <button
+                        className={styles["modal-previous-button"]}
+                        onClick={handleArrowClick}
+                    >
+                        &lt;
+                    </button>
+                    <button
+                        className={styles["modal-next-button"]}
+                        onClick={handleArrowClick}
+                    >
+                        &gt;
+                    </button>
+                    <div className={styles["indicator-container"]}>
+                        {projectData.map((_, index) => (
+                            <div
+                                key={index}
+                                className={`${styles.indicator} ${index === currentImageIndex ? styles["active-indicator"] : ""
+                                    }`}
+                            ></div>
+                        ))}
+                    </div>
+                </div>
+            )}
+
+            {projectData.map((item, index) => {
+                return (
+                    <div
+                        key={index}
+                        className={styles["image-div"]}
+                        onClick={() => openModalHandler(item, index)}
+                    >
+                        <Suspense fallback={<div></div>}>
+                            <ProjectDetailsGalleryImage src={item} alt="item" />
+                        </Suspense>
+                    </div>
+                );
+            })}
         </div>
-      )}
-
-      {projectData.map((item, index) => {
-        return (
-          <div
-            key={index}
-            className={styles["image-div"]}
-            onClick={() => openModalHandler(item, index)}
-          >
-            <Suspense fallback={<div></div>}>
-              <ProjectDetailsGalleryImage src={item} alt="item" />
-            </Suspense>
-          </div>
-        );
-      })}
-    </div>
-  );
+    );
 };
 
 export default ProjectDetailsGallery;

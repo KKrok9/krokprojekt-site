@@ -5,6 +5,7 @@
     flex-direction: column;
     padding-top: 30px;
     font-family: 'Montserrat', sans-serif;
+    bottom: 0;
   }
   
   .top {
