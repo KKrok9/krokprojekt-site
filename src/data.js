@@ -1,5 +1,30 @@
 const projectsData = [
     {
+        title: "KONCEPCJA SIEDZIBY NADLEŚCNICTWA W WIELUNIU",
+        content: "",
+        images: [
+            "/strona-www/KONCEPCJA SIEDZIBY NADLEŚNICTWA W WIELUNIU/0.jpg",
+            "/strona-www/KONCEPCJA SIEDZIBY NADLEŚNICTWA W WIELUNIU/1.jpg",
+            "/strona-www/KONCEPCJA SIEDZIBY NADLEŚNICTWA W WIELUNIU/2.jpg",
+            "/strona-www/KONCEPCJA SIEDZIBY NADLEŚNICTWA W WIELUNIU/3.jpg",
+            "/strona-www/KONCEPCJA SIEDZIBY NADLEŚNICTWA W WIELUNIU/4.jpg",
+            "/strona-www/KONCEPCJA SIEDZIBY NADLEŚNICTWA W WIELUNIU/5.jpg",
+        ]
+    },
+    {
+        title: "BUDYNEK MIESZKALNY W WĘGRZCACH",
+        content: "",
+        images: [
+            "/strona-www/BUDYNEK MIESZKALNY W OKOCIMIU/0.jpg",
+            "/strona-www/BUDYNEK MIESZKALNY W OKOCIMIU/1.jpg",
+            "/strona-www/BUDYNEK MIESZKALNY W OKOCIMIU/2.jpg",
+            "/strona-www/BUDYNEK MIESZKALNY W OKOCIMIU/3.jpg",
+            "/strona-www/BUDYNEK MIESZKALNY W OKOCIMIU/4.jpg",
+            "/strona-www/BUDYNEK MIESZKALNY W OKOCIMIU/5.jpg",
+            "/strona-www/BUDYNEK MIESZKALNY W OKOCIMIU/6.jpg"
+        ]
+    },
+    {
         title: "BUDYNEK MIESZKALNY W WĘGRZCACH",
         content: "",
         images: [
