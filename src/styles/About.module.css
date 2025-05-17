@@ -6,6 +6,7 @@
   flex-direction: column;
   overflow: scroll;
   margin-top: 50px;
+  overflow-x: hidden;
 }
 
 .navbar {
