@@ -25,11 +25,14 @@
   object-fit: cover;
 }
 .logo-content {
-  height: 100%;
-  width: 100%;
-  padding: 20%;
-  object-fit: cover;
+  max-height: 60px;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  padding: 0; 
+  object-fit: contain;
 }
+
 .navbar-elements {
   height: 100%;
   width: 45%;
