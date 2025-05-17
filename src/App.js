@@ -5,6 +5,7 @@ import Offer from "./pages/Offer";
 import Contact from "./pages/Contact";
 import Welcome from "./pages/Welcome";
 import Footer from "./components/footer/Footer";
+import { useEffect } from "react";
 import {
     BrowserRouter as Router,
     Route,
@@ -16,7 +17,9 @@ import {
 function AppContent() {
     const location = useLocation();
     const hideFooter = location.pathname.startsWith("/project/");
-
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [location.pathname]);
     return (
         <div className={styles["app"]}>
             <Routes>

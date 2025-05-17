@@ -14,15 +14,16 @@
 
 .modal-container {
   width: 25%;
-  height: 40%;
+  max-height: 70vh; /* ograniczenie maksymalne */
+  height: auto;
   background-color: white;
   border-radius: 12px;
   padding: 1%;
 }
 
 .modal-header {
-  height: 40%;
   width: 100%;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,20 +41,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: left;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
   letter-spacing: 0.2px;
+  text-align: justify;
   
 }
 .modal-content-para {
   width: 90%;
   height: 95%;
-  font-size: 18px;
+  font-size: 16px;
   overflow: auto;
   margin-left: 5%;
   text-align: justify;
   font-family: 'Montserrat', sans-serif;
+  hyphens: auto;
+    word-break: break-word;
 }
 
 
@@ -66,6 +69,7 @@
   height: 100%;
   width: 60%;
   border-radius: 12px;
+  text-align: justify;
 }
 
 .button-container {
@@ -100,14 +104,13 @@
 @media (max-width: 1300px) {
   .modal-container {
     width: 30%;
-    height: 40%;
+    max-height: 70vh;
   }
 }
 
 @media (max-width: 1200px) {
   .modal-container {
     width: 45%;
-    height: 45%;
   }
   .image-container {
     width: 40%;
@@ -118,10 +121,12 @@
 @media (max-width: 700px) {
   .modal-container {
     width: 80%;
-    height: 50%;
+    padding-bottom: 20px;
   }
   .modal-content-para {
     font-size: 12px;
+     hyphens: auto;
+    word-break: break-word;
   }
   .image-container {
     width: 45%;
@@ -132,6 +137,5 @@
 @media (max-width: 550px) {
   .modal-container {
     width: 80%;
-    height: 60%;
   }
 }
