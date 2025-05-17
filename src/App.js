@@ -5,6 +5,7 @@ import Offer from "./pages/Offer";
 import Contact from "./pages/Contact";
 import Welcome from "./pages/Welcome";
 import Footer from "./components/footer/Footer";
+import About from "./pages/About";
 import { useEffect } from "react";
 import {
     BrowserRouter as Router,
@@ -16,7 +17,9 @@ import {
 // 🔁 Nowy wewnętrzny komponent, gdzie można użyć useLocation
 function AppContent() {
     const location = useLocation();
-    const hideFooter = location.pathname.startsWith("/project/");
+    const hideFooter =
+        location.pathname.startsWith("/project/");
+
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [location.pathname]);
@@ -28,8 +31,9 @@ function AppContent() {
                 <Route path="/offer" element={<Offer />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/" element={<Welcome />} />
+                <Route path="/about" element={<About />} />
             </Routes>
-            {!hideFooter && <Footer />}
+            {!hideFooter && < Footer className={styles["footer"]} />}
         </div>
     );
 }
