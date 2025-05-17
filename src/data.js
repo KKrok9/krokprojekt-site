@@ -12,7 +12,7 @@ const projectsData = [
         ]
     },
     {
-        title: "BUDYNEK MIESZKALNY W WĘGRZCACH",
+        title: "BUDYNEK MIESZKALNY W OKOCIMIU",
         content: "",
         images: [
             "/strona-www/BUDYNEK MIESZKALNY W OKOCIMIU/0.jpg",

@@ -52,7 +52,8 @@
   font-size: 18px;
   overflow: auto;
   margin-left: 5%;
-  text-align: left;
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -118,6 +119,9 @@
   .modal-container {
     width: 80%;
     height: 50%;
+  }
+  .modal-content-para {
+    font-size: 12px;
   }
   .image-container {
     width: 45%;
