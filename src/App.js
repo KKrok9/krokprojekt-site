@@ -21,8 +21,11 @@ function AppContent() {
         location.pathname.startsWith("/project/");
 
     useEffect(() => {
-        window.scrollTo(0, 0);
+        if (!location.pathname.startsWith("/projects")) {
+            window.scrollTo(0, 0);
+        }
     }, [location.pathname]);
+
     return (
         <div className={styles["app"]}>
             <Routes>
