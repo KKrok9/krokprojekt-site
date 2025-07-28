@@ -65,6 +65,7 @@ const ProjectDetailsGallery = (props) => {
                         className={styles["modal-image"]}
                         alt="modal"
                         onClick={handleImageClick}
+                        onContextMenu={(e) => e.preventDefault()}
                     />
                     <button
                         className={styles["modal-close-button"]}
