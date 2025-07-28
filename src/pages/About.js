@@ -19,7 +19,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className={styles["image-section"]}>
-                    <img src="/mariusz.jpg" alt="Mariusz Krok" />
+                    <img onContextMenu={(e) => e.preventDefault()} src="/mariusz.jpg" alt="Mariusz Krok" />
                 </div>
             </div>
         </div>
